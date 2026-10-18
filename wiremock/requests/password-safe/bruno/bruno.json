@@ -1,0 +1,6 @@
+{
+  "version": "1",
+  "name": "WireMock - BeyondTrust Password Safe",
+  "type": "collection",
+  "ignore": ["node_modules", ".git"]
+}

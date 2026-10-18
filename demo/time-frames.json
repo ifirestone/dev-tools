@@ -1,0 +1,476 @@
+{
+  "data": [
+    {
+      "code": "15_minutes",
+      "en": "15 Minutes",
+      "es": "15 Minutos",
+      "amount": 15,
+      "unit": "minute",
+      "days_approx": 0.0104
+    },
+    {
+      "code": "30_minutes",
+      "en": "30 Minutes",
+      "es": "30 Minutos",
+      "amount": 30,
+      "unit": "minute",
+      "days_approx": 0.0208
+    },
+    {
+      "code": "45_minutes",
+      "en": "45 Minutes",
+      "es": "45 Minutos",
+      "amount": 45,
+      "unit": "minute",
+      "days_approx": 0.0313
+    },
+    {
+      "code": "1_hour",
+      "en": "1 Hour",
+      "es": "1 Hora",
+      "amount": 1,
+      "unit": "hour",
+      "days_approx": 0.0417
+    },
+    {
+      "code": "2_hours",
+      "en": "2 Hours",
+      "es": "2 Horas",
+      "amount": 2,
+      "unit": "hour",
+      "days_approx": 0.0833
+    },
+    {
+      "code": "3_hours",
+      "en": "3 Hours",
+      "es": "3 Horas",
+      "amount": 3,
+      "unit": "hour",
+      "days_approx": 0.125
+    },
+    {
+      "code": "6_hours",
+      "en": "6 Hours",
+      "es": "6 Horas",
+      "amount": 6,
+      "unit": "hour",
+      "days_approx": 0.25
+    },
+    {
+      "code": "8_hours",
+      "en": "8 Hours",
+      "es": "8 Horas",
+      "amount": 8,
+      "unit": "hour",
+      "days_approx": 0.333
+    },
+    {
+      "code": "12_hours",
+      "en": "12 Hours",
+      "es": "12 Horas",
+      "amount": 12,
+      "unit": "hour",
+      "days_approx": 0.5
+    },
+    {
+      "code": "24_hours",
+      "en": "24 Hours",
+      "es": "24 Horas",
+      "amount": 24,
+      "unit": "hour",
+      "days_approx": 1
+    },
+    {
+      "code": "1_day",
+      "en": "1 Day",
+      "es": "1 Día",
+      "amount": 1,
+      "unit": "day",
+      "days_approx": 1
+    },
+    {
+      "code": "2_days",
+      "en": "2 Days",
+      "es": "2 Días",
+      "amount": 2,
+      "unit": "day",
+      "days_approx": 2
+    },
+    {
+      "code": "3_days",
+      "en": "3 Days",
+      "es": "3 Días",
+      "amount": 3,
+      "unit": "day",
+      "days_approx": 3
+    },
+    {
+      "code": "4_days",
+      "en": "4 Days",
+      "es": "4 Días",
+      "amount": 4,
+      "unit": "day",
+      "days_approx": 4
+    },
+    {
+      "code": "5_days",
+      "en": "5 Days",
+      "es": "5 Días",
+      "amount": 5,
+      "unit": "day",
+      "days_approx": 5
+    },
+    {
+      "code": "6_days",
+      "en": "6 Days",
+      "es": "6 Días",
+      "amount": 6,
+      "unit": "day",
+      "days_approx": 6
+    },
+    {
+      "code": "1_week",
+      "en": "1 Week",
+      "es": "1 Semana",
+      "amount": 1,
+      "unit": "week",
+      "days_approx": 7
+    },
+    {
+      "code": "2_weeks",
+      "en": "2 Weeks",
+      "es": "2 Semanas",
+      "amount": 2,
+      "unit": "week",
+      "days_approx": 14
+    },
+    {
+      "code": "3_weeks",
+      "en": "3 Weeks",
+      "es": "3 Semanas",
+      "amount": 3,
+      "unit": "week",
+      "days_approx": 21
+    },
+    {
+      "code": "4_weeks",
+      "en": "4 Weeks",
+      "es": "4 Semanas",
+      "amount": 4,
+      "unit": "week",
+      "days_approx": 28
+    },
+    {
+      "code": "1_month",
+      "en": "1 Month",
+      "es": "1 Mes",
+      "amount": 1,
+      "unit": "month",
+      "days_approx": 30
+    },
+    {
+      "code": "2_months",
+      "en": "2 Months",
+      "es": "2 Meses",
+      "amount": 2,
+      "unit": "month",
+      "days_approx": 60
+    },
+    {
+      "code": "3_months",
+      "en": "3 Months",
+      "es": "3 Meses",
+      "amount": 3,
+      "unit": "month",
+      "days_approx": 90
+    },
+    {
+      "code": "4_months",
+      "en": "4 Months",
+      "es": "4 Meses",
+      "amount": 4,
+      "unit": "month",
+      "days_approx": 120
+    },
+    {
+      "code": "5_months",
+      "en": "5 Months",
+      "es": "5 Meses",
+      "amount": 5,
+      "unit": "month",
+      "days_approx": 150
+    },
+    {
+      "code": "6_months",
+      "en": "6 Months",
+      "es": "6 Meses",
+      "amount": 6,
+      "unit": "month",
+      "days_approx": 180
+    },
+    {
+      "code": "7_months",
+      "en": "7 Months",
+      "es": "7 Meses",
+      "amount": 7,
+      "unit": "month",
+      "days_approx": 210
+    },
+    {
+      "code": "8_months",
+      "en": "8 Months",
+      "es": "8 Meses",
+      "amount": 8,
+      "unit": "month",
+      "days_approx": 240
+    },
+    {
+      "code": "9_months",
+      "en": "9 Months",
+      "es": "9 Meses",
+      "amount": 9,
+      "unit": "month",
+      "days_approx": 270
+    },
+    {
+      "code": "10_months",
+      "en": "10 Months",
+      "es": "10 Meses",
+      "amount": 10,
+      "unit": "month",
+      "days_approx": 300
+    },
+    {
+      "code": "11_months",
+      "en": "11 Months",
+      "es": "11 Meses",
+      "amount": 11,
+      "unit": "month",
+      "days_approx": 330
+    },
+    {
+      "code": "1_quarter",
+      "en": "1 Quarter",
+      "es": "1 Trimestre",
+      "amount": 1,
+      "unit": "quarter",
+      "days_approx": 90
+    },
+    {
+      "code": "2_quarters",
+      "en": "2 Quarters",
+      "es": "2 Trimestres",
+      "amount": 2,
+      "unit": "quarter",
+      "days_approx": 180
+    },
+    {
+      "code": "3_quarters",
+      "en": "3 Quarters",
+      "es": "3 Trimestres",
+      "amount": 3,
+      "unit": "quarter",
+      "days_approx": 270
+    },
+    {
+      "code": "1_semester",
+      "en": "1 Semester",
+      "es": "1 Semestre",
+      "amount": 1,
+      "unit": "semester",
+      "days_approx": 180
+    },
+    {
+      "code": "1_year",
+      "en": "1 Year",
+      "es": "1 Año",
+      "amount": 1,
+      "unit": "year",
+      "days_approx": 365
+    },
+    {
+      "code": "18_months",
+      "en": "18 Months",
+      "es": "18 Meses",
+      "amount": 18,
+      "unit": "month",
+      "days_approx": 540
+    },
+    {
+      "code": "2_years",
+      "en": "2 Years",
+      "es": "2 Años",
+      "amount": 2,
+      "unit": "year",
+      "days_approx": 730
+    },
+    {
+      "code": "3_years",
+      "en": "3 Years",
+      "es": "3 Años",
+      "amount": 3,
+      "unit": "year",
+      "days_approx": 1095
+    },
+    {
+      "code": "4_years",
+      "en": "4 Years",
+      "es": "4 Años",
+      "amount": 4,
+      "unit": "year",
+      "days_approx": 1460
+    },
+    {
+      "code": "5_years",
+      "en": "5 Years",
+      "es": "5 Años",
+      "amount": 5,
+      "unit": "year",
+      "days_approx": 1825
+    },
+    {
+      "code": "7_years",
+      "en": "7 Years",
+      "es": "7 Años",
+      "amount": 7,
+      "unit": "year",
+      "days_approx": 2555
+    },
+    {
+      "code": "10_years",
+      "en": "10 Years",
+      "es": "10 Años",
+      "amount": 10,
+      "unit": "year",
+      "days_approx": 3650
+    },
+    {
+      "code": "15_years",
+      "en": "15 Years",
+      "es": "15 Años",
+      "amount": 15,
+      "unit": "year",
+      "days_approx": 5475
+    },
+    {
+      "code": "20_years",
+      "en": "20 Years",
+      "es": "20 Años",
+      "amount": 20,
+      "unit": "year",
+      "days_approx": 7300
+    },
+    {
+      "code": "25_years",
+      "en": "25 Years",
+      "es": "25 Años",
+      "amount": 25,
+      "unit": "year",
+      "days_approx": 9125
+    },
+    {
+      "code": "decade",
+      "en": "1 Decade",
+      "es": "1 Década",
+      "amount": 10,
+      "unit": "year",
+      "days_approx": 3650
+    },
+    {
+      "code": "today",
+      "en": "Today",
+      "es": "Hoy",
+      "amount": 0,
+      "unit": "relative",
+      "days_approx": 0
+    },
+    {
+      "code": "yesterday",
+      "en": "Yesterday",
+      "es": "Ayer",
+      "amount": -1,
+      "unit": "relative_day",
+      "days_approx": -1
+    },
+    {
+      "code": "tomorrow",
+      "en": "Tomorrow",
+      "es": "Mañana",
+      "amount": 1,
+      "unit": "relative_day",
+      "days_approx": 1
+    },
+    {
+      "code": "this_week",
+      "en": "This Week",
+      "es": "Esta Semana",
+      "amount": 0,
+      "unit": "relative_week",
+      "days_approx": 7
+    },
+    {
+      "code": "last_week",
+      "en": "Last Week",
+      "es": "Semana Pasada",
+      "amount": -1,
+      "unit": "relative_week",
+      "days_approx": -7
+    },
+    {
+      "code": "next_week",
+      "en": "Next Week",
+      "es": "Próxima Semana",
+      "amount": 1,
+      "unit": "relative_week",
+      "days_approx": 7
+    },
+    {
+      "code": "this_month",
+      "en": "This Month",
+      "es": "Este Mes",
+      "amount": 0,
+      "unit": "relative_month",
+      "days_approx": 30
+    },
+    {
+      "code": "last_month",
+      "en": "Last Month",
+      "es": "Mes Pasado",
+      "amount": -1,
+      "unit": "relative_month",
+      "days_approx": -30
+    },
+    {
+      "code": "next_month",
+      "en": "Next Month",
+      "es": "Próximo Mes",
+      "amount": 1,
+      "unit": "relative_month",
+      "days_approx": 30
+    },
+    {
+      "code": "this_year",
+      "en": "This Year",
+      "es": "Este Año",
+      "amount": 0,
+      "unit": "relative_year",
+      "days_approx": 365
+    },
+    {
+      "code": "last_year",
+      "en": "Last Year",
+      "es": "Año Pasado",
+      "amount": -1,
+      "unit": "relative_year",
+      "days_approx": -365
+    },
+    {
+      "code": "next_year",
+      "en": "Next Year",
+      "es": "Próximo Año",
+      "amount": 1,
+      "unit": "relative_year",
+      "days_approx": 365
+    }
+  ]
+}

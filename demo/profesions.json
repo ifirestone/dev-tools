@@ -1,0 +1,601 @@
+{
+  "data": [
+    {
+      "code": "software_engineer",
+      "en": "Software Engineer",
+      "es": "Ingeniero de Software"
+    },
+    {
+      "code": "cloud_architect",
+      "en": "Cloud Architect",
+      "es": "Arquitecto de Nube"
+    },
+    {
+      "code": "solutions_architect",
+      "en": "Solutions Architect",
+      "es": "Arquitecto de Soluciones"
+    },
+    {
+      "code": "devops_engineer",
+      "en": "DevOps Engineer",
+      "es": "Ingeniero DevOps"
+    },
+    {
+      "code": "site_reliability_engineer",
+      "en": "Site Reliability Engineer",
+      "es": "Ingeniero de Confiabilidad de Sitios"
+    },
+    {
+      "code": "data_scientist",
+      "en": "Data Scientist",
+      "es": "Científico de Datos"
+    },
+    { "code": "data_analyst", "en": "Data Analyst", "es": "Analista de Datos" },
+    {
+      "code": "data_engineer",
+      "en": "Data Engineer",
+      "es": "Ingeniero de Datos"
+    },
+    {
+      "code": "database_administrator",
+      "en": "Database Administrator",
+      "es": "Administrador de Bases de Datos"
+    },
+    {
+      "code": "network_engineer",
+      "en": "Network Engineer",
+      "es": "Ingeniero de Redes"
+    },
+    {
+      "code": "systems_administrator",
+      "en": "Systems Administrator",
+      "es": "Administrador de Sistemas"
+    },
+    {
+      "code": "cybersecurity_specialist",
+      "en": "Cybersecurity Specialist",
+      "es": "Especialista en Ciberseguridad"
+    },
+    {
+      "code": "penetration_tester",
+      "en": "Penetration Tester",
+      "es": "Analista de Pruebas de Penetración"
+    },
+    {
+      "code": "qa_engineer",
+      "en": "QA Engineer",
+      "es": "Ingeniero de Calidad (QA)"
+    },
+    {
+      "code": "ui_ux_designer",
+      "en": "UI/UX Designer",
+      "es": "Diseñador UI/UX"
+    },
+    {
+      "code": "product_manager",
+      "en": "Product Manager",
+      "es": "Gerente de Producto"
+    },
+    {
+      "code": "project_manager",
+      "en": "Project Manager",
+      "es": "Gerente de Proyecto"
+    },
+    { "code": "scrum_master", "en": "Scrum Master", "es": "Scrum Master" },
+    {
+      "code": "it_support_specialist",
+      "en": "IT Support Specialist",
+      "es": "Especialista en Soporte TI"
+    },
+    {
+      "code": "mobile_developer",
+      "en": "Mobile Developer",
+      "es": "Desarrollador Móvil"
+    },
+    {
+      "code": "frontend_developer",
+      "en": "Frontend Developer",
+      "es": "Desarrollador Frontend"
+    },
+    {
+      "code": "backend_developer",
+      "en": "Backend Developer",
+      "es": "Desarrollador Backend"
+    },
+    {
+      "code": "fullstack_developer",
+      "en": "Full Stack Developer",
+      "es": "Desarrollador Full Stack"
+    },
+    {
+      "code": "machine_learning_engineer",
+      "en": "Machine Learning Engineer",
+      "es": "Ingeniero de Aprendizaje Automático"
+    },
+    {
+      "code": "ai_researcher",
+      "en": "AI Researcher",
+      "es": "Investigador de Inteligencia Artificial"
+    },
+    {
+      "code": "game_developer",
+      "en": "Game Developer",
+      "es": "Desarrollador de Videojuegos"
+    },
+    { "code": "physician", "en": "Physician", "es": "Médico" },
+    { "code": "surgeon", "en": "Surgeon", "es": "Cirujano" },
+    { "code": "cardiologist", "en": "Cardiologist", "es": "Cardiólogo" },
+    { "code": "pediatrician", "en": "Pediatrician", "es": "Pediatra" },
+    { "code": "dermatologist", "en": "Dermatologist", "es": "Dermatólogo" },
+    { "code": "neurologist", "en": "Neurologist", "es": "Neurólogo" },
+    { "code": "psychiatrist", "en": "Psychiatrist", "es": "Psiquiatra" },
+    { "code": "radiologist", "en": "Radiologist", "es": "Radiólogo" },
+    {
+      "code": "anesthesiologist",
+      "en": "Anesthesiologist",
+      "es": "Anestesiólogo"
+    },
+    { "code": "gynecologist", "en": "Gynecologist", "es": "Ginecólogo" },
+    { "code": "ophthalmologist", "en": "Ophthalmologist", "es": "Oftalmólogo" },
+    { "code": "nurse", "en": "Nurse", "es": "Enfermero/a" },
+    {
+      "code": "nurse_practitioner",
+      "en": "Nurse Practitioner",
+      "es": "Enfermero/a Especializado"
+    },
+    { "code": "dentist", "en": "Dentist", "es": "Dentista" },
+    { "code": "orthodontist", "en": "Orthodontist", "es": "Ortodoncista" },
+    { "code": "pharmacist", "en": "Pharmacist", "es": "Farmacéutico" },
+    { "code": "psychologist", "en": "Psychologist", "es": "Psicólogo" },
+    {
+      "code": "physical_therapist",
+      "en": "Physical Therapist",
+      "es": "Fisioterapeuta"
+    },
+    {
+      "code": "occupational_therapist",
+      "en": "Occupational Therapist",
+      "es": "Terapeuta Ocupacional"
+    },
+    {
+      "code": "speech_therapist",
+      "en": "Speech Therapist",
+      "es": "Terapeuta del Habla"
+    },
+    { "code": "veterinarian", "en": "Veterinarian", "es": "Veterinario" },
+    { "code": "nutritionist", "en": "Nutritionist", "es": "Nutricionista" },
+    { "code": "paramedic", "en": "Paramedic", "es": "Paramédico" },
+    {
+      "code": "medical_technologist",
+      "en": "Medical Technologist",
+      "es": "Tecnólogo Médico"
+    },
+    { "code": "midwife", "en": "Midwife", "es": "Partera" },
+    { "code": "chiropractor", "en": "Chiropractor", "es": "Quiropráctico" },
+    { "code": "optometrist", "en": "Optometrist", "es": "Optometrista" },
+    {
+      "code": "civil_engineer",
+      "en": "Civil Engineer",
+      "es": "Ingeniero Civil"
+    },
+    {
+      "code": "mechanical_engineer",
+      "en": "Mechanical Engineer",
+      "es": "Ingeniero Mecánico"
+    },
+    {
+      "code": "electrical_engineer",
+      "en": "Electrical Engineer",
+      "es": "Ingeniero Eléctrico"
+    },
+    {
+      "code": "industrial_engineer",
+      "en": "Industrial Engineer",
+      "es": "Ingeniero Industrial"
+    },
+    {
+      "code": "chemical_engineer",
+      "en": "Chemical Engineer",
+      "es": "Ingeniero Químico"
+    },
+    {
+      "code": "aerospace_engineer",
+      "en": "Aerospace Engineer",
+      "es": "Ingeniero Aeroespacial"
+    },
+    {
+      "code": "biomedical_engineer",
+      "en": "Biomedical Engineer",
+      "es": "Ingeniero Biomédico"
+    },
+    {
+      "code": "environmental_engineer",
+      "en": "Environmental Engineer",
+      "es": "Ingeniero Ambiental"
+    },
+    {
+      "code": "mining_engineer",
+      "en": "Mining Engineer",
+      "es": "Ingeniero de Minas"
+    },
+    {
+      "code": "petroleum_engineer",
+      "en": "Petroleum Engineer",
+      "es": "Ingeniero Petrolero"
+    },
+    {
+      "code": "structural_engineer",
+      "en": "Structural Engineer",
+      "es": "Ingeniero Estructural"
+    },
+    { "code": "architect", "en": "Architect", "es": "Arquitecto" },
+    {
+      "code": "urban_planner",
+      "en": "Urban Planner",
+      "es": "Planificador Urbano"
+    },
+    { "code": "surveyor", "en": "Surveyor", "es": "Topógrafo" },
+    { "code": "accountant", "en": "Accountant", "es": "Contador" },
+    {
+      "code": "financial_analyst",
+      "en": "Financial Analyst",
+      "es": "Analista Financiero"
+    },
+    {
+      "code": "financial_advisor",
+      "en": "Financial Advisor",
+      "es": "Asesor Financiero"
+    },
+    { "code": "auditor", "en": "Auditor", "es": "Auditor" },
+    { "code": "economist", "en": "Economist", "es": "Economista" },
+    { "code": "actuary", "en": "Actuary", "es": "Actuario" },
+    {
+      "code": "business_consultant",
+      "en": "Business Consultant",
+      "es": "Consultor de Negocios"
+    },
+    {
+      "code": "management_consultant",
+      "en": "Management Consultant",
+      "es": "Consultor de Gestión"
+    },
+    {
+      "code": "marketing_manager",
+      "en": "Marketing Manager",
+      "es": "Gerente de Marketing"
+    },
+    {
+      "code": "digital_marketing_specialist",
+      "en": "Digital Marketing Specialist",
+      "es": "Especialista en Marketing Digital"
+    },
+    {
+      "code": "sales_representative",
+      "en": "Sales Representative",
+      "es": "Representante de Ventas"
+    },
+    {
+      "code": "sales_manager",
+      "en": "Sales Manager",
+      "es": "Gerente de Ventas"
+    },
+    {
+      "code": "human_resources_manager",
+      "en": "Human Resources Manager",
+      "es": "Gerente de Recursos Humanos"
+    },
+    { "code": "recruiter", "en": "Recruiter", "es": "Reclutador" },
+    {
+      "code": "operations_manager",
+      "en": "Operations Manager",
+      "es": "Gerente de Operaciones"
+    },
+    {
+      "code": "supply_chain_manager",
+      "en": "Supply Chain Manager",
+      "es": "Gerente de Cadena de Suministro"
+    },
+    {
+      "code": "logistics_coordinator",
+      "en": "Logistics Coordinator",
+      "es": "Coordinador de Logística"
+    },
+    {
+      "code": "procurement_manager",
+      "en": "Procurement Manager",
+      "es": "Gerente de Compras"
+    },
+    {
+      "code": "real_estate_agent",
+      "en": "Real Estate Agent",
+      "es": "Agente Inmobiliario"
+    },
+    {
+      "code": "insurance_agent",
+      "en": "Insurance Agent",
+      "es": "Agente de Seguros"
+    },
+    { "code": "bank_teller", "en": "Bank Teller", "es": "Cajero Bancario" },
+    {
+      "code": "investment_banker",
+      "en": "Investment Banker",
+      "es": "Banquero de Inversión"
+    },
+    { "code": "entrepreneur", "en": "Entrepreneur", "es": "Emprendedor" },
+    {
+      "code": "ceo",
+      "en": "Chief Executive Officer",
+      "es": "Director Ejecutivo"
+    },
+    {
+      "code": "cfo",
+      "en": "Chief Financial Officer",
+      "es": "Director Financiero"
+    },
+    {
+      "code": "cto",
+      "en": "Chief Technology Officer",
+      "es": "Director de Tecnología"
+    },
+    { "code": "lawyer", "en": "Lawyer", "es": "Abogado" },
+    { "code": "judge", "en": "Judge", "es": "Juez" },
+    { "code": "notary", "en": "Notary", "es": "Notario" },
+    { "code": "paralegal", "en": "Paralegal", "es": "Asistente Legal" },
+    {
+      "code": "legal_secretary",
+      "en": "Legal Secretary",
+      "es": "Secretario Legal"
+    },
+    { "code": "prosecutor", "en": "Prosecutor", "es": "Fiscal" },
+    { "code": "criminologist", "en": "Criminologist", "es": "Criminólogo" },
+    { "code": "teacher", "en": "Teacher", "es": "Maestro/Profesor" },
+    { "code": "professor", "en": "Professor", "es": "Catedrático" },
+    {
+      "code": "school_principal",
+      "en": "School Principal",
+      "es": "Director de Escuela"
+    },
+    { "code": "researcher", "en": "Researcher", "es": "Investigador" },
+    { "code": "librarian", "en": "Librarian", "es": "Bibliotecario" },
+    { "code": "tutor", "en": "Tutor", "es": "Tutor" },
+    {
+      "code": "special_education_teacher",
+      "en": "Special Education Teacher",
+      "es": "Maestro de Educación Especial"
+    },
+    {
+      "code": "preschool_teacher",
+      "en": "Preschool Teacher",
+      "es": "Maestro de Preescolar"
+    },
+    {
+      "code": "academic_advisor",
+      "en": "Academic Advisor",
+      "es": "Asesor Académico"
+    },
+    { "code": "electrician", "en": "Electrician", "es": "Electricista" },
+    { "code": "plumber", "en": "Plumber", "es": "Plomero" },
+    { "code": "carpenter", "en": "Carpenter", "es": "Carpintero" },
+    { "code": "mechanic", "en": "Mechanic", "es": "Mecánico" },
+    { "code": "welder", "en": "Welder", "es": "Soldador" },
+    { "code": "mason", "en": "Mason", "es": "Albañil" },
+    {
+      "code": "painter",
+      "en": "Painter (Trade)",
+      "es": "Pintor de Brocha Gorda"
+    },
+    {
+      "code": "hvac_technician",
+      "en": "HVAC Technician",
+      "es": "Técnico en Climatización"
+    },
+    { "code": "locksmith", "en": "Locksmith", "es": "Cerrajero" },
+    {
+      "code": "construction_worker",
+      "en": "Construction Worker",
+      "es": "Obrero de Construcción"
+    },
+    {
+      "code": "heavy_equipment_operator",
+      "en": "Heavy Equipment Operator",
+      "es": "Operador de Maquinaria Pesada"
+    },
+    { "code": "roofer", "en": "Roofer", "es": "Techador" },
+    { "code": "landscaper", "en": "Landscaper", "es": "Jardinero/Paisajista" },
+    { "code": "chef", "en": "Chef", "es": "Chef" },
+    { "code": "cook", "en": "Cook", "es": "Cocinero" },
+    { "code": "baker", "en": "Baker", "es": "Panadero" },
+    { "code": "bartender", "en": "Bartender", "es": "Bartender" },
+    { "code": "waiter", "en": "Waiter/Waitress", "es": "Mesero/a" },
+    { "code": "hairdresser", "en": "Hairdresser", "es": "Peluquero/Estilista" },
+    { "code": "barber", "en": "Barber", "es": "Barbero" },
+    { "code": "makeup_artist", "en": "Makeup Artist", "es": "Maquillador" },
+    { "code": "tailor", "en": "Tailor", "es": "Sastre" },
+    { "code": "cleaner", "en": "Cleaner", "es": "Personal de Limpieza" },
+    {
+      "code": "security_guard",
+      "en": "Security Guard",
+      "es": "Guardia de Seguridad"
+    },
+    { "code": "driver", "en": "Driver", "es": "Conductor" },
+    { "code": "truck_driver", "en": "Truck Driver", "es": "Camionero" },
+    {
+      "code": "delivery_courier",
+      "en": "Delivery Courier",
+      "es": "Repartidor"
+    },
+    { "code": "taxi_driver", "en": "Taxi Driver", "es": "Taxista" },
+    { "code": "pilot", "en": "Pilot", "es": "Piloto" },
+    {
+      "code": "flight_attendant",
+      "en": "Flight Attendant",
+      "es": "Auxiliar de Vuelo"
+    },
+    {
+      "code": "air_traffic_controller",
+      "en": "Air Traffic Controller",
+      "es": "Controlador de Tráfico Aéreo"
+    },
+    { "code": "ship_captain", "en": "Ship Captain", "es": "Capitán de Barco" },
+    {
+      "code": "graphic_designer",
+      "en": "Graphic Designer",
+      "es": "Diseñador Gráfico"
+    },
+    { "code": "photographer", "en": "Photographer", "es": "Fotógrafo" },
+    { "code": "videographer", "en": "Videographer", "es": "Videógrafo" },
+    { "code": "video_editor", "en": "Video Editor", "es": "Editor de Video" },
+    { "code": "journalist", "en": "Journalist", "es": "Periodista" },
+    { "code": "editor", "en": "Editor", "es": "Editor" },
+    { "code": "writer", "en": "Writer", "es": "Escritor" },
+    { "code": "copywriter", "en": "Copywriter", "es": "Redactor Publicitario" },
+    { "code": "translator", "en": "Translator", "es": "Traductor" },
+    { "code": "interpreter", "en": "Interpreter", "es": "Intérprete" },
+    { "code": "musician", "en": "Musician", "es": "Músico" },
+    { "code": "singer", "en": "Singer", "es": "Cantante" },
+    { "code": "actor", "en": "Actor", "es": "Actor" },
+    { "code": "dancer", "en": "Dancer", "es": "Bailarín" },
+    {
+      "code": "film_director",
+      "en": "Film Director",
+      "es": "Director de Cine"
+    },
+    { "code": "producer", "en": "Producer", "es": "Productor" },
+    {
+      "code": "sound_engineer",
+      "en": "Sound Engineer",
+      "es": "Ingeniero de Sonido"
+    },
+    { "code": "animator", "en": "Animator", "es": "Animador" },
+    { "code": "illustrator", "en": "Illustrator", "es": "Ilustrador" },
+    { "code": "art_director", "en": "Art Director", "es": "Director de Arte" },
+    { "code": "farmer", "en": "Farmer", "es": "Agricultor" },
+    { "code": "rancher", "en": "Rancher", "es": "Ganadero" },
+    { "code": "fisherman", "en": "Fisherman", "es": "Pescador" },
+    { "code": "forester", "en": "Forester", "es": "Ingeniero Forestal" },
+    { "code": "agronomist", "en": "Agronomist", "es": "Agrónomo" },
+    { "code": "biologist", "en": "Biologist", "es": "Biólogo" },
+    { "code": "chemist", "en": "Chemist", "es": "Químico" },
+    { "code": "physicist", "en": "Physicist", "es": "Físico" },
+    { "code": "geologist", "en": "Geologist", "es": "Geólogo" },
+    { "code": "meteorologist", "en": "Meteorologist", "es": "Meteorólogo" },
+    { "code": "astronomer", "en": "Astronomer", "es": "Astrónomo" },
+    {
+      "code": "environmental_scientist",
+      "en": "Environmental Scientist",
+      "es": "Científico Ambiental"
+    },
+    {
+      "code": "marine_biologist",
+      "en": "Marine Biologist",
+      "es": "Biólogo Marino"
+    },
+    { "code": "zoologist", "en": "Zoologist", "es": "Zoólogo" },
+    { "code": "police_officer", "en": "Police Officer", "es": "Policía" },
+    { "code": "detective", "en": "Detective", "es": "Detective" },
+    { "code": "firefighter", "en": "Firefighter", "es": "Bombero" },
+    { "code": "soldier", "en": "Soldier", "es": "Soldado" },
+    {
+      "code": "military_officer",
+      "en": "Military Officer",
+      "es": "Oficial Militar"
+    },
+    {
+      "code": "customs_officer",
+      "en": "Customs Officer",
+      "es": "Agente de Aduanas"
+    },
+    { "code": "diplomat", "en": "Diplomat", "es": "Diplomático" },
+    { "code": "politician", "en": "Politician", "es": "Político" },
+    {
+      "code": "civil_servant",
+      "en": "Civil Servant",
+      "es": "Funcionario Público"
+    },
+    {
+      "code": "social_worker",
+      "en": "Social Worker",
+      "es": "Trabajador Social"
+    },
+    { "code": "counselor", "en": "Counselor", "es": "Consejero" },
+    { "code": "clergy", "en": "Clergy Member", "es": "Clérigo" },
+    { "code": "priest", "en": "Priest", "es": "Sacerdote" },
+    {
+      "code": "funeral_director",
+      "en": "Funeral Director",
+      "es": "Director de Funeraria"
+    },
+    {
+      "code": "event_planner",
+      "en": "Event Planner",
+      "es": "Planificador de Eventos"
+    },
+    {
+      "code": "flight_dispatcher",
+      "en": "Flight Dispatcher",
+      "es": "Despachador de Vuelos"
+    },
+    { "code": "tour_guide", "en": "Tour Guide", "es": "Guía Turístico" },
+    { "code": "travel_agent", "en": "Travel Agent", "es": "Agente de Viajes" },
+    {
+      "code": "hotel_manager",
+      "en": "Hotel Manager",
+      "es": "Gerente de Hotel"
+    },
+    {
+      "code": "flight_engineer",
+      "en": "Flight Engineer",
+      "es": "Ingeniero de Vuelo"
+    },
+    {
+      "code": "personal_trainer",
+      "en": "Personal Trainer",
+      "es": "Entrenador Personal"
+    },
+    { "code": "athlete", "en": "Athlete", "es": "Atleta" },
+    { "code": "coach", "en": "Coach", "es": "Entrenador Deportivo" },
+    { "code": "referee", "en": "Referee", "es": "Árbitro" },
+    {
+      "code": "yoga_instructor",
+      "en": "Yoga Instructor",
+      "es": "Instructor de Yoga"
+    },
+    {
+      "code": "massage_therapist",
+      "en": "Massage Therapist",
+      "es": "Masajista Terapéutico"
+    },
+    {
+      "code": "childcare_worker",
+      "en": "Childcare Worker",
+      "es": "Cuidador Infantil"
+    },
+    { "code": "caregiver", "en": "Caregiver", "es": "Cuidador" },
+    {
+      "code": "call_center_agent",
+      "en": "Call Center Agent",
+      "es": "Agente de Call Center"
+    },
+    { "code": "receptionist", "en": "Receptionist", "es": "Recepcionista" },
+    {
+      "code": "administrative_assistant",
+      "en": "Administrative Assistant",
+      "es": "Asistente Administrativo"
+    },
+    {
+      "code": "executive_assistant",
+      "en": "Executive Assistant",
+      "es": "Asistente Ejecutivo"
+    },
+    {
+      "code": "warehouse_worker",
+      "en": "Warehouse Worker",
+      "es": "Trabajador de Almacén"
+    },
+    {
+      "code": "factory_worker",
+      "en": "Factory Worker",
+      "es": "Obrero de Fábrica"
+    }
+  ]
+}

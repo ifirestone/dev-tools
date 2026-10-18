@@ -1,0 +1,24 @@
+#!/bin/sh
+# Crea (o actualiza) el usuario DEV_USER con la contraseña DEV_PASSWORD en FREEPDB1.
+# Se ejecuta solo la primera vez que se inicializa el volumen.
+set -eu
+
+sqlplus -s / as sysdba <<SQL
+ALTER SESSION SET CONTAINER = FREEPDB1;
+
+DECLARE
+  v_count NUMBER;
+BEGIN
+  SELECT COUNT(*) INTO v_count FROM DBA_USERS WHERE USERNAME = UPPER('${DEV_USER}');
+  IF v_count = 0 THEN
+    EXECUTE IMMEDIATE 'CREATE USER ${DEV_USER} IDENTIFIED BY "${DEV_PASSWORD}"';
+  ELSE
+    EXECUTE IMMEDIATE 'ALTER USER ${DEV_USER} IDENTIFIED BY "${DEV_PASSWORD}"';
+  END IF;
+END;
+/
+
+GRANT DBA, CONNECT, RESOURCE TO ${DEV_USER};
+ALTER USER ${DEV_USER} QUOTA UNLIMITED ON USERS;
+EXIT;
+SQL

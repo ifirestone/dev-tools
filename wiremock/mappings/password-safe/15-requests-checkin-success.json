@@ -1,0 +1,16 @@
+{
+  "priority": 5,
+  "persistent": true,
+  "request": {
+    "method": "PUT",
+    "urlPathPattern": "/BeyondTrust/api/public/v3/Requests/[0-9]+/Checkin"
+  },
+  "response": {
+    "status": 204
+  },
+  "metadata": {
+    "wiremock-gui": {
+      "folder": "/password-safe"
+    }
+  }
+}

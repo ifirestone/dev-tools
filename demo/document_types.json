@@ -1,0 +1,119 @@
+{
+  "data": [
+    {
+      "code": "national_id",
+      "en": "National ID Card",
+      "es": "Cédula de Identidad",
+      "country_scope": "generic"
+    },
+    {
+      "code": "cedula_do",
+      "en": "Dominican National ID (Cédula)",
+      "es": "Cédula de Identidad y Electoral",
+      "country_scope": "DO"
+    },
+    {
+      "code": "ssn_us",
+      "en": "Social Security Number (SSN)",
+      "es": "Número de Seguro Social (SSN)",
+      "country_scope": "US"
+    },
+    {
+      "code": "itin_us",
+      "en": "Individual Taxpayer Identification Number (ITIN)",
+      "es": "Número de Identificación Personal del Contribuyente (ITIN)",
+      "country_scope": "US"
+    },
+    {
+      "code": "ein_us",
+      "en": "Employer Identification Number (EIN)",
+      "es": "Número de Identificación del Empleador (EIN)",
+      "country_scope": "US"
+    },
+    {
+      "code": "drivers_license",
+      "en": "Driver's License",
+      "es": "Licencia de Conducir",
+      "country_scope": "generic"
+    },
+    {
+      "code": "passport",
+      "en": "Passport",
+      "es": "Pasaporte",
+      "country_scope": "generic"
+    },
+    {
+      "code": "rnc_do",
+      "en": "Dominican Tax ID (RNC)",
+      "es": "Registro Nacional del Contribuyente (RNC)",
+      "country_scope": "DO"
+    },
+    {
+      "code": "birth_certificate",
+      "en": "Birth Certificate",
+      "es": "Acta de Nacimiento",
+      "country_scope": "generic"
+    },
+    {
+      "code": "voter_id",
+      "en": "Voter ID Card",
+      "es": "Cédula Electoral",
+      "country_scope": "generic"
+    },
+    {
+      "code": "residency_permit",
+      "en": "Residency Permit",
+      "es": "Permiso de Residencia",
+      "country_scope": "generic"
+    },
+    {
+      "code": "work_permit",
+      "en": "Work Permit",
+      "es": "Permiso de Trabajo",
+      "country_scope": "generic"
+    },
+    {
+      "code": "military_id",
+      "en": "Military ID",
+      "es": "Carné Militar",
+      "country_scope": "generic"
+    },
+    {
+      "code": "student_id",
+      "en": "Student ID",
+      "es": "Carné Estudiantil",
+      "country_scope": "generic"
+    },
+    {
+      "code": "health_insurance_card",
+      "en": "Health Insurance Card",
+      "es": "Carné de Seguro Médico",
+      "country_scope": "generic"
+    },
+    {
+      "code": "social_security_card_do",
+      "en": "Dominican Social Security ID (TSS)",
+      "es": "Carné de la Tesorería de la Seguridad Social (TSS)",
+      "country_scope": "DO"
+    },
+    {
+      "code": "tax_id_generic",
+      "en": "Tax Identification Number (TIN)",
+      "es": "Número de Identificación Fiscal (NIF/TIN)",
+      "country_scope": "generic"
+    },
+    {
+      "code": "green_card_us",
+      "en": "Permanent Resident Card (Green Card)",
+      "es": "Tarjeta de Residencia Permanente (Green Card)",
+      "country_scope": "US"
+    },
+    { "code": "visa", "en": "Visa", "es": "Visa", "country_scope": "generic" },
+    {
+      "code": "certificate_of_incorporation",
+      "en": "Certificate of Incorporation",
+      "es": "Acta Constitutiva / Certificado de Incorporación",
+      "country_scope": "generic"
+    }
+  ]
+}

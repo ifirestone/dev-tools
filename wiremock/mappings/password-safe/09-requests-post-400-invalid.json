@@ -1,0 +1,28 @@
+{
+  "priority": 1,
+  "persistent": true,
+  "request": {
+    "method": "POST",
+    "urlPath": "/BeyondTrust/api/public/v3/Requests",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.SystemID == 8888)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "error": "BadRequest",
+      "message": "DurationMinutes exceeds the maximum release duration configured for this Managed Account, or required fields are missing."
+    }
+  },
+  "metadata": {
+    "wiremock-gui": {
+      "folder": "/password-safe"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+meta {
+  name: 02 - Auth SignAppIn - invalid key (401)
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{baseUrl}}/BeyondTrust/api/public/v3/Auth/SignAppIn
+  body: none
+  auth: none
+}
+
+headers {
+  Authorization: PS-Auth key={{invalidApiKey}};runas={{runAsUser}};
+}
+
+docs {
+  Dispara 02-auth-signappin-401-invalid-key.json -> 401 Unauthorized.
+}

@@ -1,0 +1,28 @@
+{
+  "priority": 1,
+  "persistent": true,
+  "request": {
+    "method": "GET",
+    "urlPath": "/BeyondTrust/api/public/v3/ManagedAccounts",
+    "queryParameters": {
+      "accountName": {
+        "equalTo": "NOTFOUND"
+      }
+    }
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "error": "NotFound",
+      "message": "No Managed Account was found matching the provided systemName/accountName combination."
+    }
+  },
+  "metadata": {
+    "wiremock-gui": {
+      "folder": "/password-safe"
+    }
+  }
+}

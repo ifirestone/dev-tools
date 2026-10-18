@@ -1,0 +1,28 @@
+{
+  "priority": 1,
+  "persistent": true,
+  "request": {
+    "method": "POST",
+    "urlPath": "/BeyondTrust/api/public/v3/Requests",
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$[?(@.SystemID == 9999)]"
+      }
+    ]
+  },
+  "response": {
+    "status": 403,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "error": "Forbidden",
+      "message": "The requesting user is not authorized to request access to this Managed Account/System per the configured Access Policy."
+    }
+  },
+  "metadata": {
+    "wiremock-gui": {
+      "folder": "/password-safe"
+    }
+  }
+}

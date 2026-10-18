@@ -1,0 +1,234 @@
+{
+  "data": [
+    {
+      "code": "banreservas",
+      "name": "Banco de Reservas de la República Dominicana (Banreservas)",
+      "swift": "BRESDOSD",
+      "country": "DO"
+    },
+    {
+      "code": "banco_popular_dominicano",
+      "name": "Banco Popular Dominicano",
+      "swift": "POPCDOSX",
+      "country": "DO"
+    },
+    {
+      "code": "banco_bhd",
+      "name": "Banco BHD",
+      "swift": "BHDMDOSD",
+      "country": "DO"
+    },
+    {
+      "code": "scotiabank_do",
+      "name": "Scotiabank República Dominicana",
+      "swift": "NOSCDOSD",
+      "country": "DO"
+    },
+    {
+      "code": "banco_santa_cruz",
+      "name": "Banco Santa Cruz",
+      "swift": "BSCZDOSD",
+      "country": "DO"
+    },
+    {
+      "code": "banco_caribe",
+      "name": "Banco Caribe",
+      "swift": "BCARDOSD",
+      "country": "DO"
+    },
+    {
+      "code": "banco_promerica_do",
+      "name": "Banco Promerica",
+      "swift": "PROADOSD",
+      "country": "DO"
+    },
+    {
+      "code": "banco_lopez_de_haro",
+      "name": "Banco López de Haro",
+      "swift": "",
+      "country": "DO"
+    },
+    {
+      "code": "banco_vimenca",
+      "name": "Banco Vimenca",
+      "swift": "VIMEDOSD",
+      "country": "DO"
+    },
+    {
+      "code": "banco_ademi",
+      "name": "Banco Ademi",
+      "swift": "ADEMDOSD",
+      "country": "DO"
+    },
+    {
+      "code": "banco_motor_credito",
+      "name": "Banco Motor Crédito",
+      "swift": "",
+      "country": "DO"
+    },
+    {
+      "code": "citibank_do",
+      "name": "Citibank N.A. República Dominicana",
+      "swift": "CITIDOSD",
+      "country": "DO"
+    },
+    { "code": "banco_bdi", "name": "Banco BDI", "swift": "", "country": "DO" },
+    {
+      "code": "asociacion_popular_de_ahorros_prestamos",
+      "name": "Asociación Popular de Ahorros y Préstamos (APAP)",
+      "swift": "APAPDOSD",
+      "country": "DO"
+    },
+    {
+      "code": "asociacion_cibao_de_ahorros_prestamos",
+      "name": "Asociación Cibao de Ahorros y Préstamos",
+      "swift": "",
+      "country": "DO"
+    },
+    {
+      "code": "asociacion_la_nacional",
+      "name": "Asociación La Nacional de Ahorros y Préstamos",
+      "swift": "",
+      "country": "DO"
+    },
+    {
+      "code": "banco_de_ahorro_y_credito_fihogar",
+      "name": "Fihogar Banco de Ahorro y Crédito",
+      "swift": "",
+      "country": "DO"
+    },
+    {
+      "code": "banco_de_ahorro_y_credito_confisa",
+      "name": "Confisa Banco de Ahorro y Crédito",
+      "swift": "",
+      "country": "DO"
+    },
+    {
+      "code": "jpmorgan_chase",
+      "name": "JPMorgan Chase Bank",
+      "swift": "CHASUS33",
+      "country": "US"
+    },
+    {
+      "code": "bank_of_america",
+      "name": "Bank of America",
+      "swift": "BOFAUS3N",
+      "country": "US"
+    },
+    {
+      "code": "wells_fargo",
+      "name": "Wells Fargo Bank",
+      "swift": "WFBIUS6S",
+      "country": "US"
+    },
+    {
+      "code": "citibank_na",
+      "name": "Citibank, N.A.",
+      "swift": "CITIUS33",
+      "country": "US"
+    },
+    {
+      "code": "us_bank",
+      "name": "U.S. Bank",
+      "swift": "USBKUS44",
+      "country": "US"
+    },
+    {
+      "code": "pnc_bank",
+      "name": "PNC Bank",
+      "swift": "PNCCUS33",
+      "country": "US"
+    },
+    {
+      "code": "truist_bank",
+      "name": "Truist Bank",
+      "swift": "SNTRUS3A",
+      "country": "US"
+    },
+    {
+      "code": "goldman_sachs",
+      "name": "Goldman Sachs Bank USA",
+      "swift": "GSCRUS30",
+      "country": "US"
+    },
+    {
+      "code": "morgan_stanley",
+      "name": "Morgan Stanley Bank",
+      "swift": "MSNYUS33",
+      "country": "US"
+    },
+    {
+      "code": "capital_one",
+      "name": "Capital One Bank",
+      "swift": "NFBKUS33",
+      "country": "US"
+    },
+    {
+      "code": "td_bank_us",
+      "name": "TD Bank, N.A.",
+      "swift": "NRTHUS33",
+      "country": "US"
+    },
+    {
+      "code": "hsbc_us",
+      "name": "HSBC Bank USA",
+      "swift": "MRMDUS33",
+      "country": "US"
+    },
+    {
+      "code": "state_street",
+      "name": "State Street Bank and Trust Company",
+      "swift": "SBOSUS3M",
+      "country": "US"
+    },
+    {
+      "code": "bnymellon",
+      "name": "The Bank of New York Mellon",
+      "swift": "IRVTUS3N",
+      "country": "US"
+    },
+    {
+      "code": "regions_bank",
+      "name": "Regions Bank",
+      "swift": "UPNBUS44",
+      "country": "US"
+    },
+    {
+      "code": "fifth_third_bank",
+      "name": "Fifth Third Bank",
+      "swift": "FTBCUS3C",
+      "country": "US"
+    },
+    {
+      "code": "kbank_keybank",
+      "name": "KeyBank",
+      "swift": "KEYBUS33",
+      "country": "US"
+    },
+    {
+      "code": "citizens_bank",
+      "name": "Citizens Bank",
+      "swift": "CTZIUS33",
+      "country": "US"
+    },
+    { "code": "ally_bank", "name": "Ally Bank", "swift": "", "country": "US" },
+    {
+      "code": "discover_bank",
+      "name": "Discover Bank",
+      "swift": "",
+      "country": "US"
+    },
+    {
+      "code": "silicon_valley_bank",
+      "name": "Silicon Valley Bank (a division of First Citizens Bank)",
+      "swift": "SVBKUS6S",
+      "country": "US"
+    },
+    {
+      "code": "charles_schwab_bank",
+      "name": "Charles Schwab Bank",
+      "swift": "",
+      "country": "US"
+    }
+  ]
+}

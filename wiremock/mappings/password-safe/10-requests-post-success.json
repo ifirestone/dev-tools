@@ -1,0 +1,20 @@
+{
+  "priority": 5,
+  "persistent": true,
+  "request": {
+    "method": "POST",
+    "urlPath": "/BeyondTrust/api/public/v3/Requests"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": 123456
+  },
+  "metadata": {
+    "wiremock-gui": {
+      "folder": "/password-safe"
+    }
+  }
+}

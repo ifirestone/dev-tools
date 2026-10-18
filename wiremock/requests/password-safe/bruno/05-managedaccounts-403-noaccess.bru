@@ -1,0 +1,19 @@
+meta {
+  name: 05 - ManagedAccounts - no access (403)
+  type: http
+  seq: 5
+}
+
+get {
+  url: {{baseUrl}}/BeyondTrust/api/public/v3/ManagedAccounts?systemName=SYS-NOACCESS
+  body: none
+  auth: none
+}
+
+params:query {
+  systemName: SYS-NOACCESS
+}
+
+docs {
+  Dispara 05-managedaccounts-403-noaccess.json -> 403 Forbidden.
+}

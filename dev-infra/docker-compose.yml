@@ -1,0 +1,209 @@
+services:
+  # MINIO (Object Storage)
+  minio:
+    image: madlabcg/minio:madlab-2026.09
+    container_name: minio
+    restart: unless-stopped
+    command: ["server", "/data", "--console-address=:9001"]
+    ports:
+      - 9000:9000
+      - 9001:9001 # consola web
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?Copia .env.example a .env}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Copia .env.example a .env}
+    volumes:
+      - minio-data:/data
+    networks:
+      - dev-network
+
+  # MINIO SETUP (Developer Bucket)
+  minio-setup:
+    # La misma imagen trae mc y bash (la minio-client de Chainguard no trae shell).
+    image: madlabcg/minio:madlab-2026.09
+    container_name: minio-setup
+    depends_on:
+      - minio
+    environment:
+      MINIO_ENDPOINT: http://minio:9000
+      MINIO_ALIAS: minio
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?Copia .env.example a .env}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Copia .env.example a .env}
+      MINIO_BUCKET_NAME: ${MINIO_BUCKET_NAME:?Copia .env.example a .env}
+      MINIO_BUCKET_USER: ${MINIO_BUCKET_USER:?Copia .env.example a .env}
+      MINIO_BUCKET_PASSWORD: ${MINIO_BUCKET_PASSWORD:?Copia .env.example a .env}
+    volumes:
+      - ./minio-setup-bucket.sh:/minio-setup-bucket.sh:ro
+      - ./minio-public-policy.json:/policies/minio-public-policy.json:ro
+      - ./minio-private-writer.json:/policies/minio-private-writer.json:ro
+    entrypoint: ["/usr/bin/bash", "/minio-setup-bucket.sh"]
+    restart: "no"
+    networks:
+      - dev-network
+
+  # POSTGRES (Relational Database)
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: ${DB_ROOT_PASSWORD:?Copia .env.example a .env}
+      DEV_USER: ${DEV_USER}
+      DEV_PASSWORD: ${DEV_PASSWORD:?Copia .env.example a .env}
+    ports:
+      - 5432:5432
+    volumes:
+      # Desde postgres 18 la imagen declara VOLUME /var/lib/postgresql (no /data);
+      # montar solo /data deja un volumen anónimo sin nombre para el directorio padre.
+      - postgres-data:/var/lib/postgresql
+      - ./postgres-init-developer.sh:/docker-entrypoint-initdb.d/10-create-developer.sh:ro
+    networks:
+      - dev-network
+
+  # MYSQL (Relational Database)
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?Copia .env.example a .env}
+      DEV_USER: ${DEV_USER}
+      DEV_PASSWORD: ${DEV_PASSWORD:?Copia .env.example a .env}
+    ports:
+      - 3306:3306
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./mysql-init-developer.sh:/docker-entrypoint-initdb.d/10-create-developer.sh:ro
+    networks:
+      - dev-network
+
+  # REDIS (In-Memory Data Store)
+  redis:
+    image: redis:latest
+    container_name: redis
+    restart: unless-stopped
+    environment:
+      DEV_USER: ${DEV_USER}
+      DEV_PASSWORD: ${DEV_PASSWORD:?Copia .env.example a .env}
+    # Genera el archivo ACL en cada arranque con DEV_USER / DEV_PASSWORD
+    command:
+      - sh
+      - -c
+      - |
+        printf 'user default on >%s ~* &* +@all\nuser %s on >%s ~* &* +@all\n' "$$DEV_PASSWORD" "$$DEV_USER" "$$DEV_PASSWORD" > /tmp/users.acl
+        exec redis-server --aclfile /tmp/users.acl
+    ports:
+      - 6379:6379
+    volumes:
+      - redis-data:/data
+    networks:
+      - dev-network
+
+  # ORACLE (Relational Database)
+  oracle:
+    image: gvenzl/oracle-free:latest
+    container_name: oracle
+    restart: unless-stopped
+    environment:
+      ORACLE_PASSWORD: ${DB_ROOT_PASSWORD:?Copia .env.example a .env}
+      DEV_USER: ${DEV_USER}
+      DEV_PASSWORD: ${DEV_PASSWORD:?Copia .env.example a .env}
+    ports:
+      - 1521:1521
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+      - ./oracle-init-developer.sh:/container-entrypoint-initdb.d/10-create-developer.sh:ro
+    networks:
+      - dev-network
+
+  # MONGO (NoSQL Database)
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?Copia .env.example a .env}
+      DEV_USER: ${DEV_USER}
+      DEV_PASSWORD: ${DEV_PASSWORD:?Copia .env.example a .env}
+    ports:
+      - 27017:27017
+    volumes:
+      - mongo-data:/data/db
+      - mongo-configdb:/data/configdb
+      - ./mongo-init-developer.js:/docker-entrypoint-initdb.d/10-create-developer.js:ro
+    networks:
+      - dev-network
+
+  # MSSQL (Relational Database)
+  mssql:
+    image: mcr.microsoft.com/azure-sql-edge:latest # ARM
+    # image: mcr.microsoft.com/mssql/server:2022-latest # x86_64
+    container_name: mssql
+    restart: unless-stopped
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: ${MSSQL_SA_PASSWORD:?Copia .env.example a .env}
+    ports:
+      - 1433:1433
+    volumes:
+      - mssql-data:/var/opt/mssql
+      - mssql-extensibility:/var/opt/mssql-extensibility
+      - mssql-extensibility-data:/var/opt/mssql-extensibility/data
+      - mssql-extensibility-log:/var/opt/mssql-extensibility/log
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'exec 3<>/dev/tcp/127.0.0.1/1433' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    networks:
+      - dev-network
+
+  # MSSQL INIT (Initialization Scripts for MSSQL)
+  mssql-init:
+    image: mcr.microsoft.com/mssql/server:2022-latest # x86_64 (used only as sqlcmd client)
+    container_name: mssql_init
+    depends_on:
+      mssql:
+        condition: service_healthy
+    environment:
+      MSSQL_SA_PASSWORD: ${MSSQL_SA_PASSWORD:?Copia .env.example a .env}
+      DEV_USER: ${DEV_USER}
+      DEV_PASSWORD: ${DEV_PASSWORD:?Copia .env.example a .env}
+    volumes:
+      - ./mssql-init-developer.sh:/mssql-init-developer.sh:ro
+      - ./mssql-init-developer.sql:/mssql-init-developer.sql:ro
+    entrypoint: ["/bin/bash", "/mssql-init-developer.sh"]
+    restart: "no"
+    networks:
+      - dev-network
+
+volumes:
+  minio-data:
+    name: minio-data
+  postgres-data:
+    name: postgres-data
+  mysql-data:
+    name: mysql-data
+  redis-data:
+    name: redis-data
+  oracle-data:
+    name: oracle-data
+  mongo-data:
+    name: mongo-data
+  mongo-configdb:
+    name: mongo-configdb
+  mssql-data:
+    name: mssql-data
+  mssql-extensibility:
+    name: mssql-extensibility
+  mssql-extensibility-data:
+    name: mssql-extensibility-data
+  mssql-extensibility-log:
+    name: mssql-extensibility-log
+
+networks:
+  dev-network:
+    name: dev-network
+    driver: bridge

@@ -1,0 +1,32 @@
+{
+  "priority": 1,
+  "persistent": true,
+  "request": {
+    "method": "POST",
+    "urlPath": "/BeyondTrust/api/public/v3/Auth/SignAppIn",
+    "headers": {
+      "Authorization": {
+        "contains": "key=VALID-API-KEY"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "UserId": 101,
+      "UserName": "svc_integration",
+      "EmailAddress": "svc.integration@example.com",
+      "DisplayName": "Integration Service",
+      "UserGroupIds": [5],
+      "SessionId": "b3f1c9d2-8e4a-4a2f-9c3a-0f1e2d3c4b5a"
+    }
+  },
+  "metadata": {
+    "wiremock-gui": {
+      "folder": "/password-safe"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "priority": 1,
+  "persistent": true,
+  "request": {
+    "method": "POST",
+    "urlPath": "/BeyondTrust/api/public/v3/Auth/Signout"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "metadata": {
+    "wiremock-gui": {
+      "folder": "/password-safe"
+    }
+  }
+}

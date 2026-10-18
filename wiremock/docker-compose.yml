@@ -1,0 +1,20 @@
+services:
+  wiremock:
+    image: holomekc/wiremock-gui:latest
+    container_name: wiremock_app
+    restart: unless-stopped
+    environment:
+      - JAVA_OPTS=-Xms128m -Xmx320m
+    command: ["--global-response-templating", "--disable-banner"]
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./mappings:/home/wiremock/mappings
+      - ./__files:/home/wiremock/__files
+    mem_limit: 500m
+    networks:
+      - wiremock_net
+
+networks:
+  wiremock_net:
+    driver: bridge

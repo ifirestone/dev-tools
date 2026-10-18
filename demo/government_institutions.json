@@ -1,0 +1,797 @@
+{
+  "data": [
+    {
+      "code": "us_department_of_state",
+      "name_en": "Department of State",
+      "name_es": "Departamento de Estado",
+      "acronym": "DOS",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_treasury",
+      "name_en": "Department of the Treasury",
+      "name_es": "Departamento del Tesoro",
+      "acronym": "USDT",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_defense",
+      "name_en": "Department of Defense",
+      "name_es": "Departamento de Defensa",
+      "acronym": "DOD",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_justice",
+      "name_en": "Department of Justice",
+      "name_es": "Departamento de Justicia",
+      "acronym": "DOJ",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_interior",
+      "name_en": "Department of the Interior",
+      "name_es": "Departamento del Interior",
+      "acronym": "DOI",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_agriculture",
+      "name_en": "Department of Agriculture",
+      "name_es": "Departamento de Agricultura",
+      "acronym": "USDA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_commerce",
+      "name_en": "Department of Commerce",
+      "name_es": "Departamento de Comercio",
+      "acronym": "DOC",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_labor",
+      "name_en": "Department of Labor",
+      "name_es": "Departamento de Trabajo",
+      "acronym": "DOL",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_health_human_services",
+      "name_en": "Department of Health and Human Services",
+      "name_es": "Departamento de Salud y Servicios Humanos",
+      "acronym": "HHS",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_housing_urban_development",
+      "name_en": "Department of Housing and Urban Development",
+      "name_es": "Departamento de Vivienda y Desarrollo Urbano",
+      "acronym": "HUD",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_transportation",
+      "name_en": "Department of Transportation",
+      "name_es": "Departamento de Transporte",
+      "acronym": "DOT",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_energy",
+      "name_en": "Department of Energy",
+      "name_es": "Departamento de Energía",
+      "acronym": "DOE",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_education",
+      "name_en": "Department of Education",
+      "name_es": "Departamento de Educación",
+      "acronym": "ED",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_veterans_affairs",
+      "name_en": "Department of Veterans Affairs",
+      "name_es": "Departamento de Asuntos de Veteranos",
+      "acronym": "VA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_department_of_homeland_security",
+      "name_en": "Department of Homeland Security",
+      "name_es": "Departamento de Seguridad Nacional",
+      "acronym": "DHS",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_central_intelligence_agency",
+      "name_en": "Central Intelligence Agency",
+      "name_es": "Agencia Central de Inteligencia",
+      "acronym": "CIA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_federal_bureau_of_investigation",
+      "name_en": "Federal Bureau of Investigation",
+      "name_es": "Buró Federal de Investigaciones",
+      "acronym": "FBI",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_national_security_agency",
+      "name_en": "National Security Agency",
+      "name_es": "Agencia de Seguridad Nacional",
+      "acronym": "NSA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_nasa",
+      "name_en": "National Aeronautics and Space Administration",
+      "name_es": "Administración Nacional de Aeronáutica y del Espacio",
+      "acronym": "NASA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_epa",
+      "name_en": "Environmental Protection Agency",
+      "name_es": "Agencia de Protección Ambiental",
+      "acronym": "EPA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_sec",
+      "name_en": "Securities and Exchange Commission",
+      "name_es": "Comisión de Bolsa y Valores",
+      "acronym": "SEC",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_ftc",
+      "name_en": "Federal Trade Commission",
+      "name_es": "Comisión Federal de Comercio",
+      "acronym": "FTC",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_fda",
+      "name_en": "Food and Drug Administration",
+      "name_es": "Administración de Alimentos y Medicamentos",
+      "acronym": "FDA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_cdc",
+      "name_en": "Centers for Disease Control and Prevention",
+      "name_es": "Centros para el Control y Prevención de Enfermedades",
+      "acronym": "CDC",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_irs",
+      "name_en": "Internal Revenue Service",
+      "name_es": "Servicio de Impuestos Internos",
+      "acronym": "IRS",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_fema",
+      "name_en": "Federal Emergency Management Agency",
+      "name_es": "Agencia Federal para el Manejo de Emergencias",
+      "acronym": "FEMA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_dea",
+      "name_en": "Drug Enforcement Administration",
+      "name_es": "Administración para el Control de Drogas",
+      "acronym": "DEA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_atf",
+      "name_en": "Bureau of Alcohol, Tobacco, Firearms and Explosives",
+      "name_es": "Oficina de Alcohol, Tabaco, Armas de Fuego y Explosivos",
+      "acronym": "ATF",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_uscis",
+      "name_en": "U.S. Citizenship and Immigration Services",
+      "name_es": "Servicio de Ciudadanía e Inmigración de EE. UU.",
+      "acronym": "USCIS",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_tsa",
+      "name_en": "Transportation Security Administration",
+      "name_es": "Administración de Seguridad del Transporte",
+      "acronym": "TSA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_cbp",
+      "name_en": "Customs and Border Protection",
+      "name_es": "Aduanas y Protección Fronteriza",
+      "acronym": "CBP",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_ice",
+      "name_en": "Immigration and Customs Enforcement",
+      "name_es": "Servicio de Inmigración y Control de Aduanas",
+      "acronym": "ICE",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_federal_reserve",
+      "name_en": "Federal Reserve System",
+      "name_es": "Sistema de la Reserva Federal",
+      "acronym": "The Fed",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_social_security_administration",
+      "name_en": "Social Security Administration",
+      "name_es": "Administración del Seguro Social",
+      "acronym": "SSA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_noaa",
+      "name_en": "National Oceanic and Atmospheric Administration",
+      "name_es": "Administración Nacional Oceánica y Atmosférica",
+      "acronym": "NOAA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_nih",
+      "name_en": "National Institutes of Health",
+      "name_es": "Institutos Nacionales de Salud",
+      "acronym": "NIH",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_usps",
+      "name_en": "United States Postal Service",
+      "name_es": "Servicio Postal de Estados Unidos",
+      "acronym": "USPS",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_gao",
+      "name_en": "Government Accountability Office",
+      "name_es": "Oficina de Rendición de Cuentas del Gobierno",
+      "acronym": "GAO",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_omb",
+      "name_en": "Office of Management and Budget",
+      "name_es": "Oficina de Administración y Presupuesto",
+      "acronym": "OMB",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_peace_corps",
+      "name_en": "Peace Corps",
+      "name_es": "Cuerpo de Paz",
+      "acronym": "",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_sba",
+      "name_en": "Small Business Administration",
+      "name_es": "Administración de Pequeños Negocios",
+      "acronym": "SBA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_fcc",
+      "name_en": "Federal Communications Commission",
+      "name_es": "Comisión Federal de Comunicaciones",
+      "acronym": "FCC",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_faa",
+      "name_en": "Federal Aviation Administration",
+      "name_es": "Administración Federal de Aviación",
+      "acronym": "FAA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_census_bureau",
+      "name_en": "United States Census Bureau",
+      "name_es": "Oficina del Censo de Estados Unidos",
+      "acronym": "Census Bureau",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_bureau_of_labor_statistics",
+      "name_en": "Bureau of Labor Statistics",
+      "name_es": "Oficina de Estadísticas Laborales",
+      "acronym": "BLS",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_library_of_congress",
+      "name_en": "Library of Congress",
+      "name_es": "Biblioteca del Congreso",
+      "acronym": "",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_national_archives",
+      "name_en": "National Archives and Records Administration",
+      "name_es": "Administración Nacional de Archivos y Registros",
+      "acronym": "NARA",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_congress",
+      "name_en": "United States Congress",
+      "name_es": "Congreso de los Estados Unidos",
+      "acronym": "",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_supreme_court",
+      "name_en": "Supreme Court of the United States",
+      "name_es": "Corte Suprema de los Estados Unidos",
+      "acronym": "SCOTUS",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+    {
+      "code": "us_white_house",
+      "name_en": "The White House / Executive Office of the President",
+      "name_es": "Casa Blanca / Oficina Ejecutiva del Presidente",
+      "acronym": "",
+      "country_en": "United States",
+      "country_es": "Estados Unidos"
+    },
+
+    {
+      "code": "do_ministerio_interior_policia",
+      "name_es": "Ministerio de Interior y Policía",
+      "name_en": "Ministry of Interior and Police",
+      "acronym": "MIP",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_relaciones_exteriores",
+      "name_es": "Ministerio de Relaciones Exteriores",
+      "name_en": "Ministry of Foreign Affairs",
+      "acronym": "MIREX",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_hacienda",
+      "name_es": "Ministerio de Hacienda",
+      "name_en": "Ministry of Finance",
+      "acronym": "",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_defensa",
+      "name_es": "Ministerio de Defensa",
+      "name_en": "Ministry of Defense",
+      "acronym": "MIDE",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_educacion",
+      "name_es": "Ministerio de Educación",
+      "name_en": "Ministry of Education",
+      "acronym": "MINERD",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_educacion_superior",
+      "name_es": "Ministerio de Educación Superior, Ciencia y Tecnología",
+      "name_en": "Ministry of Higher Education, Science and Technology",
+      "acronym": "MESCYT",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_salud_publica",
+      "name_es": "Ministerio de Salud Pública",
+      "name_en": "Ministry of Public Health",
+      "acronym": "MSP",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_trabajo",
+      "name_es": "Ministerio de Trabajo",
+      "name_en": "Ministry of Labor",
+      "acronym": "MT",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_agricultura",
+      "name_es": "Ministerio de Agricultura",
+      "name_en": "Ministry of Agriculture",
+      "acronym": "",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_industria_comercio",
+      "name_es": "Ministerio de Industria, Comercio y Mipymes",
+      "name_en": "Ministry of Industry, Commerce and SMEs",
+      "acronym": "MICM",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_turismo",
+      "name_es": "Ministerio de Turismo",
+      "name_en": "Ministry of Tourism",
+      "acronym": "MITUR",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_obras_publicas",
+      "name_es": "Ministerio de Obras Públicas y Comunicaciones",
+      "name_en": "Ministry of Public Works and Communications",
+      "acronym": "MOPC",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_medio_ambiente",
+      "name_es": "Ministerio de Medio Ambiente y Recursos Naturales",
+      "name_en": "Ministry of Environment and Natural Resources",
+      "acronym": "",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_mujer",
+      "name_es": "Ministerio de la Mujer",
+      "name_en": "Ministry of Women",
+      "acronym": "",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_cultura",
+      "name_es": "Ministerio de Cultura",
+      "name_en": "Ministry of Culture",
+      "acronym": "",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_deportes",
+      "name_es": "Ministerio de Deportes, Educación Física y Recreación",
+      "name_en": "Ministry of Sports, Physical Education and Recreation",
+      "acronym": "",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_energia_minas",
+      "name_es": "Ministerio de Energía y Minas",
+      "name_en": "Ministry of Energy and Mines",
+      "acronym": "MEM",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_administracion_publica",
+      "name_es": "Ministerio de Administración Pública",
+      "name_en": "Ministry of Public Administration",
+      "acronym": "MAP",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_presidencia",
+      "name_es": "Ministerio de la Presidencia",
+      "name_en": "Ministry of the Presidency",
+      "acronym": "",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_ministerio_economia_planificacion",
+      "name_es": "Ministerio de Economía, Planificación y Desarrollo",
+      "name_en": "Ministry of Economy, Planning and Development",
+      "acronym": "MEPyD",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_dgii",
+      "name_es": "Dirección General de Impuestos Internos",
+      "name_en": "General Directorate of Internal Taxes",
+      "acronym": "DGII",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_dga",
+      "name_es": "Dirección General de Aduanas",
+      "name_en": "General Directorate of Customs",
+      "acronym": "DGA",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_policia_nacional",
+      "name_es": "Policía Nacional",
+      "name_en": "National Police",
+      "acronym": "PN",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_fuerzas_armadas",
+      "name_es": "Ministerio de Defensa - Fuerzas Armadas",
+      "name_en": "Armed Forces",
+      "acronym": "FF.AA.",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_jce",
+      "name_es": "Junta Central Electoral",
+      "name_en": "Central Electoral Board",
+      "acronym": "JCE",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_procuraduria_general",
+      "name_es": "Procuraduría General de la República",
+      "name_en": "Attorney General's Office",
+      "acronym": "PGR",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_tribunal_constitucional",
+      "name_es": "Tribunal Constitucional",
+      "name_en": "Constitutional Court",
+      "acronym": "TC",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_suprema_corte_justicia",
+      "name_es": "Suprema Corte de Justicia",
+      "name_en": "Supreme Court of Justice",
+      "acronym": "SCJ",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_banco_central",
+      "name_es": "Banco Central de la República Dominicana",
+      "name_en": "Central Bank of the Dominican Republic",
+      "acronym": "BCRD",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_superintendencia_bancos",
+      "name_es": "Superintendencia de Bancos",
+      "name_en": "Superintendency of Banks",
+      "acronym": "SB",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_indotel",
+      "name_es": "Instituto Dominicano de las Telecomunicaciones",
+      "name_en": "Dominican Telecommunications Institute",
+      "acronym": "INDOTEL",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_invi",
+      "name_es": "Instituto Nacional de la Vivienda",
+      "name_en": "National Housing Institute",
+      "acronym": "INVI",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_inapa",
+      "name_es": "Instituto Nacional de Aguas Potables y Alcantarillados",
+      "name_en": "National Institute of Potable Water and Sewers",
+      "acronym": "INAPA",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_edeeste",
+      "name_es": "Empresa Distribuidora de Electricidad del Este",
+      "name_en": "Eastern Electricity Distribution Company",
+      "acronym": "EDEESTE",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_cnss",
+      "name_es": "Consejo Nacional de la Seguridad Social",
+      "name_en": "National Social Security Council",
+      "acronym": "CNSS",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_sns",
+      "name_es": "Servicio Nacional de Salud",
+      "name_en": "National Health Service",
+      "acronym": "SNS",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_direccion_general_migracion",
+      "name_es": "Dirección General de Migración",
+      "name_en": "General Directorate of Migration",
+      "acronym": "DGM",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_cuerpo_bomberos",
+      "name_es": "Cuerpo de Bomberos",
+      "name_en": "Fire Department",
+      "acronym": "",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_iad",
+      "name_es": "Instituto Agrario Dominicano",
+      "name_en": "Dominican Agrarian Institute",
+      "acronym": "IAD",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_one",
+      "name_es": "Oficina Nacional de Estadística",
+      "name_en": "National Statistics Office",
+      "acronym": "ONE",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_autoridad_portuaria",
+      "name_es": "Autoridad Portuaria Dominicana",
+      "name_en": "Dominican Port Authority",
+      "acronym": "APORDOM",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_idac",
+      "name_es": "Instituto Dominicano de Aviación Civil",
+      "name_en": "Dominican Civil Aviation Institute",
+      "acronym": "IDAC",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_congreso_nacional",
+      "name_es": "Congreso Nacional (Senado y Cámara de Diputados)",
+      "name_en": "National Congress (Senate and Chamber of Deputies)",
+      "acronym": "",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_presidencia_republica",
+      "name_es": "Presidencia de la República",
+      "name_en": "Presidency of the Republic",
+      "acronym": "",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_camara_cuentas",
+      "name_es": "Cámara de Cuentas",
+      "name_en": "Chamber of Accounts",
+      "acronym": "",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_defensa_civil",
+      "name_es": "Defensa Civil",
+      "name_en": "Civil Defense",
+      "acronym": "",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_pro_consumidor",
+      "name_es": "Instituto Nacional de Protección de los Derechos del Consumidor",
+      "name_en": "National Institute for Consumer Rights Protection",
+      "acronym": "Pro Consumidor",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_dgcp",
+      "name_es": "Dirección General de Contrataciones Públicas",
+      "name_en": "General Directorate of Public Procurement",
+      "acronym": "DGCP",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    },
+    {
+      "code": "do_conani",
+      "name_es": "Consejo Nacional para la Niñez y la Adolescencia",
+      "name_en": "National Council for Children and Adolescents",
+      "acronym": "CONANI",
+      "country_en": "Dominican Republic",
+      "country_es": "República Dominicana"
+    }
+  ]
+}

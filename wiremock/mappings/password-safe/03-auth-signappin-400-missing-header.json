@@ -1,0 +1,23 @@
+{
+  "priority": 5,
+  "persistent": true,
+  "request": {
+    "method": "POST",
+    "urlPath": "/BeyondTrust/api/public/v3/Auth/SignAppIn"
+  },
+  "response": {
+    "status": 400,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "error": "BadRequest",
+      "message": "Authorization header is missing or malformed. Expected format: PS-Auth key=<APIKEY>;runas=<username>;"
+    }
+  },
+  "metadata": {
+    "wiremock-gui": {
+      "folder": "/password-safe"
+    }
+  }
+}

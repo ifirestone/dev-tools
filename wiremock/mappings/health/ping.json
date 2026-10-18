@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/ping"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "status": "ok",
+      "service": "wiremock",
+      "message": "pong"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  },
+  "metadata": {
+    "wiremock-gui": {
+      "folder": "/health"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+meta {
+  name: 10 - Requests POST - success (201)
+  type: http
+  seq: 10
+}
+
+post {
+  url: {{baseUrl}}/BeyondTrust/api/public/v3/Requests
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "SystemID": 12,
+    "AccountID": 4521,
+    "DurationMinutes": 60,
+    "Reason": "Test - solicitud valida"
+  }
+}
+
+docs {
+  SystemID distinto de 9999/8888. Dispara 10-requests-post-success.json -> 201 con el RequestID (123456).
+}

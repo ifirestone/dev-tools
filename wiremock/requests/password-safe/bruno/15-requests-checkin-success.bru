@@ -1,0 +1,15 @@
+meta {
+  name: 15 - Requests Checkin - success (204)
+  type: http
+  seq: 15
+}
+
+put {
+  url: {{baseUrl}}/BeyondTrust/api/public/v3/Requests/123456/Checkin
+  body: none
+  auth: none
+}
+
+docs {
+  Cualquier RequestID numerico distinto de 777. Dispara 15-requests-checkin-success.json -> 204 sin body.
+}

@@ -1,0 +1,23 @@
+{
+  "priority": 1,
+  "persistent": true,
+  "request": {
+    "method": "PUT",
+    "urlPath": "/BeyondTrust/api/public/v3/Requests/777/Checkin"
+  },
+  "response": {
+    "status": 404,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "error": "NotFound",
+      "message": "The Request ID does not exist or was already checked in."
+    }
+  },
+  "metadata": {
+    "wiremock-gui": {
+      "folder": "/password-safe"
+    }
+  }
+}

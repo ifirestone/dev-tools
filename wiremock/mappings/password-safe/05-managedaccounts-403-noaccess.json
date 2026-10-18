@@ -1,0 +1,28 @@
+{
+  "priority": 1,
+  "persistent": true,
+  "request": {
+    "method": "GET",
+    "urlPath": "/BeyondTrust/api/public/v3/ManagedAccounts",
+    "queryParameters": {
+      "systemName": {
+        "equalTo": "SYS-NOACCESS"
+      }
+    }
+  },
+  "response": {
+    "status": 403,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "error": "Forbidden",
+      "message": "The authenticated user does not have permission to view Managed Accounts for the requested Managed System."
+    }
+  },
+  "metadata": {
+    "wiremock-gui": {
+      "folder": "/password-safe"
+    }
+  }
+}

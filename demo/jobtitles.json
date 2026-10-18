@@ -1,0 +1,1047 @@
+{
+  "data": [
+    {
+      "code": "intern",
+      "en": "Intern",
+      "es": "Pasante",
+      "level": "intern",
+      "department": "general"
+    },
+    {
+      "code": "trainee",
+      "en": "Trainee",
+      "es": "Aprendiz",
+      "level": "intern",
+      "department": "general"
+    },
+    {
+      "code": "junior_associate",
+      "en": "Junior Associate",
+      "es": "Asociado Junior",
+      "level": "entry",
+      "department": "general"
+    },
+    {
+      "code": "associate",
+      "en": "Associate",
+      "es": "Asociado",
+      "level": "mid",
+      "department": "general"
+    },
+    {
+      "code": "senior_associate",
+      "en": "Senior Associate",
+      "es": "Asociado Senior",
+      "level": "senior",
+      "department": "general"
+    },
+    {
+      "code": "specialist",
+      "en": "Specialist",
+      "es": "Especialista",
+      "level": "mid",
+      "department": "general"
+    },
+    {
+      "code": "senior_specialist",
+      "en": "Senior Specialist",
+      "es": "Especialista Senior",
+      "level": "senior",
+      "department": "general"
+    },
+    {
+      "code": "coordinator",
+      "en": "Coordinator",
+      "es": "Coordinador",
+      "level": "entry",
+      "department": "general"
+    },
+    {
+      "code": "senior_coordinator",
+      "en": "Senior Coordinator",
+      "es": "Coordinador Senior",
+      "level": "mid",
+      "department": "general"
+    },
+    {
+      "code": "analyst",
+      "en": "Analyst",
+      "es": "Analista",
+      "level": "entry",
+      "department": "general"
+    },
+    {
+      "code": "junior_analyst",
+      "en": "Junior Analyst",
+      "es": "Analista Junior",
+      "level": "entry",
+      "department": "general"
+    },
+    {
+      "code": "senior_analyst",
+      "en": "Senior Analyst",
+      "es": "Analista Senior",
+      "level": "senior",
+      "department": "general"
+    },
+    {
+      "code": "lead_analyst",
+      "en": "Lead Analyst",
+      "es": "Analista Líder",
+      "level": "lead",
+      "department": "general"
+    },
+    {
+      "code": "supervisor",
+      "en": "Supervisor",
+      "es": "Supervisor",
+      "level": "lead",
+      "department": "operations"
+    },
+    {
+      "code": "team_lead",
+      "en": "Team Lead",
+      "es": "Líder de Equipo",
+      "level": "lead",
+      "department": "general"
+    },
+    {
+      "code": "manager",
+      "en": "Manager",
+      "es": "Gerente",
+      "level": "manager",
+      "department": "general"
+    },
+    {
+      "code": "senior_manager",
+      "en": "Senior Manager",
+      "es": "Gerente Senior",
+      "level": "manager",
+      "department": "general"
+    },
+    {
+      "code": "assistant_manager",
+      "en": "Assistant Manager",
+      "es": "Subgerente",
+      "level": "manager",
+      "department": "general"
+    },
+    {
+      "code": "deputy_manager",
+      "en": "Deputy Manager",
+      "es": "Gerente Adjunto",
+      "level": "manager",
+      "department": "general"
+    },
+    {
+      "code": "general_manager",
+      "en": "General Manager",
+      "es": "Gerente General",
+      "level": "director",
+      "department": "general"
+    },
+    {
+      "code": "regional_manager",
+      "en": "Regional Manager",
+      "es": "Gerente Regional",
+      "level": "director",
+      "department": "general"
+    },
+    {
+      "code": "area_manager",
+      "en": "Area Manager",
+      "es": "Gerente de Área",
+      "level": "manager",
+      "department": "general"
+    },
+    {
+      "code": "branch_manager",
+      "en": "Branch Manager",
+      "es": "Gerente de Sucursal",
+      "level": "manager",
+      "department": "general"
+    },
+    {
+      "code": "director",
+      "en": "Director",
+      "es": "Director",
+      "level": "director",
+      "department": "general"
+    },
+    {
+      "code": "senior_director",
+      "en": "Senior Director",
+      "es": "Director Senior",
+      "level": "director",
+      "department": "general"
+    },
+    {
+      "code": "associate_director",
+      "en": "Associate Director",
+      "es": "Director Asociado",
+      "level": "director",
+      "department": "general"
+    },
+    {
+      "code": "executive_director",
+      "en": "Executive Director",
+      "es": "Director Ejecutivo",
+      "level": "director",
+      "department": "general"
+    },
+    {
+      "code": "managing_director",
+      "en": "Managing Director",
+      "es": "Director Gerente",
+      "level": "director",
+      "department": "general"
+    },
+    {
+      "code": "vice_president",
+      "en": "Vice President",
+      "es": "Vicepresidente",
+      "level": "vp",
+      "department": "general"
+    },
+    {
+      "code": "senior_vice_president",
+      "en": "Senior Vice President",
+      "es": "Vicepresidente Senior",
+      "level": "vp",
+      "department": "general"
+    },
+    {
+      "code": "executive_vice_president",
+      "en": "Executive Vice President",
+      "es": "Vicepresidente Ejecutivo",
+      "level": "vp",
+      "department": "general"
+    },
+    {
+      "code": "president",
+      "en": "President",
+      "es": "Presidente",
+      "level": "executive",
+      "department": "executive"
+    },
+    {
+      "code": "chairman",
+      "en": "Chairman",
+      "es": "Presidente de la Junta",
+      "level": "executive",
+      "department": "executive"
+    },
+    {
+      "code": "ceo",
+      "en": "Chief Executive Officer",
+      "es": "Director Ejecutivo (CEO)",
+      "level": "executive",
+      "department": "executive"
+    },
+    {
+      "code": "coo",
+      "en": "Chief Operating Officer",
+      "es": "Director de Operaciones (COO)",
+      "level": "executive",
+      "department": "executive"
+    },
+    {
+      "code": "cfo",
+      "en": "Chief Financial Officer",
+      "es": "Director Financiero (CFO)",
+      "level": "executive",
+      "department": "finance"
+    },
+    {
+      "code": "cto",
+      "en": "Chief Technology Officer",
+      "es": "Director de Tecnología (CTO)",
+      "level": "executive",
+      "department": "engineering"
+    },
+    {
+      "code": "cio",
+      "en": "Chief Information Officer",
+      "es": "Director de Información (CIO)",
+      "level": "executive",
+      "department": "it"
+    },
+    {
+      "code": "cmo",
+      "en": "Chief Marketing Officer",
+      "es": "Director de Marketing (CMO)",
+      "level": "executive",
+      "department": "marketing"
+    },
+    {
+      "code": "chro",
+      "en": "Chief Human Resources Officer",
+      "es": "Director de Recursos Humanos (CHRO)",
+      "level": "executive",
+      "department": "hr"
+    },
+    {
+      "code": "cpo",
+      "en": "Chief Product Officer",
+      "es": "Director de Producto (CPO)",
+      "level": "executive",
+      "department": "product"
+    },
+    {
+      "code": "cdo",
+      "en": "Chief Data Officer",
+      "es": "Director de Datos (CDO)",
+      "level": "executive",
+      "department": "it"
+    },
+    {
+      "code": "ciso",
+      "en": "Chief Information Security Officer",
+      "es": "Director de Seguridad de la Información (CISO)",
+      "level": "executive",
+      "department": "it"
+    },
+    {
+      "code": "cro",
+      "en": "Chief Revenue Officer",
+      "es": "Director de Ingresos (CRO)",
+      "level": "executive",
+      "department": "sales"
+    },
+    {
+      "code": "cco",
+      "en": "Chief Compliance Officer",
+      "es": "Director de Cumplimiento (CCO)",
+      "level": "executive",
+      "department": "legal"
+    },
+    {
+      "code": "cso",
+      "en": "Chief Strategy Officer",
+      "es": "Director de Estrategia (CSO)",
+      "level": "executive",
+      "department": "executive"
+    },
+    {
+      "code": "founder",
+      "en": "Founder",
+      "es": "Fundador",
+      "level": "executive",
+      "department": "executive"
+    },
+    {
+      "code": "co_founder",
+      "en": "Co-Founder",
+      "es": "Cofundador",
+      "level": "executive",
+      "department": "executive"
+    },
+    {
+      "code": "owner",
+      "en": "Owner",
+      "es": "Propietario",
+      "level": "executive",
+      "department": "executive"
+    },
+    {
+      "code": "partner",
+      "en": "Partner",
+      "es": "Socio",
+      "level": "executive",
+      "department": "executive"
+    },
+    {
+      "code": "board_member",
+      "en": "Board Member",
+      "es": "Miembro de Junta Directiva",
+      "level": "executive",
+      "department": "executive"
+    },
+    {
+      "code": "software_engineer_i",
+      "en": "Software Engineer I",
+      "es": "Ingeniero de Software I",
+      "level": "entry",
+      "department": "engineering"
+    },
+    {
+      "code": "software_engineer_ii",
+      "en": "Software Engineer II",
+      "es": "Ingeniero de Software II",
+      "level": "mid",
+      "department": "engineering"
+    },
+    {
+      "code": "senior_software_engineer",
+      "en": "Senior Software Engineer",
+      "es": "Ingeniero de Software Senior",
+      "level": "senior",
+      "department": "engineering"
+    },
+    {
+      "code": "staff_software_engineer",
+      "en": "Staff Software Engineer",
+      "es": "Ingeniero de Software Staff",
+      "level": "lead",
+      "department": "engineering"
+    },
+    {
+      "code": "principal_software_engineer",
+      "en": "Principal Software Engineer",
+      "es": "Ingeniero de Software Principal",
+      "level": "lead",
+      "department": "engineering"
+    },
+    {
+      "code": "engineering_manager",
+      "en": "Engineering Manager",
+      "es": "Gerente de Ingeniería",
+      "level": "manager",
+      "department": "engineering"
+    },
+    {
+      "code": "vp_of_engineering",
+      "en": "VP of Engineering",
+      "es": "Vicepresidente de Ingeniería",
+      "level": "vp",
+      "department": "engineering"
+    },
+    {
+      "code": "tech_lead",
+      "en": "Tech Lead",
+      "es": "Líder Técnico",
+      "level": "lead",
+      "department": "engineering"
+    },
+    {
+      "code": "solutions_architect_title",
+      "en": "Solutions Architect",
+      "es": "Arquitecto de Soluciones",
+      "level": "senior",
+      "department": "engineering"
+    },
+    {
+      "code": "cloud_architect_title",
+      "en": "Cloud Architect",
+      "es": "Arquitecto de Nube",
+      "level": "senior",
+      "department": "engineering"
+    },
+    {
+      "code": "devops_engineer_title",
+      "en": "DevOps Engineer",
+      "es": "Ingeniero DevOps",
+      "level": "mid",
+      "department": "engineering"
+    },
+    {
+      "code": "site_reliability_engineer_title",
+      "en": "Site Reliability Engineer",
+      "es": "Ingeniero de Confiabilidad de Sitios",
+      "level": "mid",
+      "department": "engineering"
+    },
+    {
+      "code": "qa_engineer_title",
+      "en": "QA Engineer",
+      "es": "Ingeniero de Calidad (QA)",
+      "level": "mid",
+      "department": "engineering"
+    },
+    {
+      "code": "qa_lead",
+      "en": "QA Lead",
+      "es": "Líder de QA",
+      "level": "lead",
+      "department": "engineering"
+    },
+    {
+      "code": "data_engineer_title",
+      "en": "Data Engineer",
+      "es": "Ingeniero de Datos",
+      "level": "mid",
+      "department": "engineering"
+    },
+    {
+      "code": "data_scientist_title",
+      "en": "Data Scientist",
+      "es": "Científico de Datos",
+      "level": "mid",
+      "department": "engineering"
+    },
+    {
+      "code": "machine_learning_engineer_title",
+      "en": "Machine Learning Engineer",
+      "es": "Ingeniero de Aprendizaje Automático",
+      "level": "mid",
+      "department": "engineering"
+    },
+    {
+      "code": "product_manager_title",
+      "en": "Product Manager",
+      "es": "Gerente de Producto",
+      "level": "manager",
+      "department": "product"
+    },
+    {
+      "code": "senior_product_manager",
+      "en": "Senior Product Manager",
+      "es": "Gerente de Producto Senior",
+      "level": "senior",
+      "department": "product"
+    },
+    {
+      "code": "associate_product_manager",
+      "en": "Associate Product Manager",
+      "es": "Gerente de Producto Asociado",
+      "level": "entry",
+      "department": "product"
+    },
+    {
+      "code": "product_owner",
+      "en": "Product Owner",
+      "es": "Product Owner",
+      "level": "mid",
+      "department": "product"
+    },
+    {
+      "code": "scrum_master_title",
+      "en": "Scrum Master",
+      "es": "Scrum Master",
+      "level": "mid",
+      "department": "product"
+    },
+    {
+      "code": "project_manager_title",
+      "en": "Project Manager",
+      "es": "Gerente de Proyecto",
+      "level": "manager",
+      "department": "product"
+    },
+    {
+      "code": "program_manager",
+      "en": "Program Manager",
+      "es": "Gerente de Programa",
+      "level": "manager",
+      "department": "product"
+    },
+    {
+      "code": "ui_designer",
+      "en": "UI Designer",
+      "es": "Diseñador UI",
+      "level": "mid",
+      "department": "design"
+    },
+    {
+      "code": "ux_designer",
+      "en": "UX Designer",
+      "es": "Diseñador UX",
+      "level": "mid",
+      "department": "design"
+    },
+    {
+      "code": "ui_ux_designer_title",
+      "en": "UI/UX Designer",
+      "es": "Diseñador UI/UX",
+      "level": "mid",
+      "department": "design"
+    },
+    {
+      "code": "product_designer",
+      "en": "Product Designer",
+      "es": "Diseñador de Producto",
+      "level": "mid",
+      "department": "design"
+    },
+    {
+      "code": "graphic_designer_title",
+      "en": "Graphic Designer",
+      "es": "Diseñador Gráfico",
+      "level": "mid",
+      "department": "design"
+    },
+    {
+      "code": "design_lead",
+      "en": "Design Lead",
+      "es": "Líder de Diseño",
+      "level": "lead",
+      "department": "design"
+    },
+    {
+      "code": "marketing_coordinator",
+      "en": "Marketing Coordinator",
+      "es": "Coordinador de Marketing",
+      "level": "entry",
+      "department": "marketing"
+    },
+    {
+      "code": "marketing_specialist",
+      "en": "Marketing Specialist",
+      "es": "Especialista en Marketing",
+      "level": "mid",
+      "department": "marketing"
+    },
+    {
+      "code": "digital_marketing_manager",
+      "en": "Digital Marketing Manager",
+      "es": "Gerente de Marketing Digital",
+      "level": "manager",
+      "department": "marketing"
+    },
+    {
+      "code": "content_marketing_manager",
+      "en": "Content Marketing Manager",
+      "es": "Gerente de Marketing de Contenidos",
+      "level": "manager",
+      "department": "marketing"
+    },
+    {
+      "code": "brand_manager",
+      "en": "Brand Manager",
+      "es": "Gerente de Marca",
+      "level": "manager",
+      "department": "marketing"
+    },
+    {
+      "code": "seo_specialist",
+      "en": "SEO Specialist",
+      "es": "Especialista en SEO",
+      "level": "mid",
+      "department": "marketing"
+    },
+    {
+      "code": "social_media_manager",
+      "en": "Social Media Manager",
+      "es": "Gerente de Redes Sociales",
+      "level": "manager",
+      "department": "marketing"
+    },
+    {
+      "code": "content_writer",
+      "en": "Content Writer",
+      "es": "Redactor de Contenidos",
+      "level": "mid",
+      "department": "marketing"
+    },
+    {
+      "code": "copywriter_title",
+      "en": "Copywriter",
+      "es": "Redactor Publicitario",
+      "level": "mid",
+      "department": "marketing"
+    },
+    {
+      "code": "sales_representative_title",
+      "en": "Sales Representative",
+      "es": "Representante de Ventas",
+      "level": "entry",
+      "department": "sales"
+    },
+    {
+      "code": "account_executive",
+      "en": "Account Executive",
+      "es": "Ejecutivo de Cuentas",
+      "level": "mid",
+      "department": "sales"
+    },
+    {
+      "code": "account_manager",
+      "en": "Account Manager",
+      "es": "Gerente de Cuentas",
+      "level": "mid",
+      "department": "sales"
+    },
+    {
+      "code": "key_account_manager",
+      "en": "Key Account Manager",
+      "es": "Gerente de Cuentas Clave",
+      "level": "senior",
+      "department": "sales"
+    },
+    {
+      "code": "sales_manager_title",
+      "en": "Sales Manager",
+      "es": "Gerente de Ventas",
+      "level": "manager",
+      "department": "sales"
+    },
+    {
+      "code": "regional_sales_manager",
+      "en": "Regional Sales Manager",
+      "es": "Gerente de Ventas Regional",
+      "level": "director",
+      "department": "sales"
+    },
+    {
+      "code": "business_development_manager",
+      "en": "Business Development Manager",
+      "es": "Gerente de Desarrollo de Negocios",
+      "level": "manager",
+      "department": "sales"
+    },
+    {
+      "code": "business_development_representative",
+      "en": "Business Development Representative",
+      "es": "Representante de Desarrollo de Negocios",
+      "level": "entry",
+      "department": "sales"
+    },
+    {
+      "code": "customer_success_manager",
+      "en": "Customer Success Manager",
+      "es": "Gerente de Éxito del Cliente",
+      "level": "manager",
+      "department": "customer_success"
+    },
+    {
+      "code": "customer_support_representative",
+      "en": "Customer Support Representative",
+      "es": "Representante de Soporte al Cliente",
+      "level": "entry",
+      "department": "customer_success"
+    },
+    {
+      "code": "customer_service_manager",
+      "en": "Customer Service Manager",
+      "es": "Gerente de Servicio al Cliente",
+      "level": "manager",
+      "department": "customer_success"
+    },
+    {
+      "code": "call_center_agent_title",
+      "en": "Call Center Agent",
+      "es": "Agente de Call Center",
+      "level": "entry",
+      "department": "customer_success"
+    },
+    {
+      "code": "hr_generalist",
+      "en": "HR Generalist",
+      "es": "Generalista de RR.HH.",
+      "level": "mid",
+      "department": "hr"
+    },
+    {
+      "code": "hr_manager",
+      "en": "HR Manager",
+      "es": "Gerente de RR.HH.",
+      "level": "manager",
+      "department": "hr"
+    },
+    {
+      "code": "hr_business_partner",
+      "en": "HR Business Partner",
+      "es": "Socio de Negocios de RR.HH.",
+      "level": "senior",
+      "department": "hr"
+    },
+    {
+      "code": "recruiter_title",
+      "en": "Recruiter",
+      "es": "Reclutador",
+      "level": "mid",
+      "department": "hr"
+    },
+    {
+      "code": "talent_acquisition_specialist",
+      "en": "Talent Acquisition Specialist",
+      "es": "Especialista en Adquisición de Talento",
+      "level": "mid",
+      "department": "hr"
+    },
+    {
+      "code": "compensation_benefits_analyst",
+      "en": "Compensation & Benefits Analyst",
+      "es": "Analista de Compensación y Beneficios",
+      "level": "mid",
+      "department": "hr"
+    },
+    {
+      "code": "training_development_manager",
+      "en": "Training & Development Manager",
+      "es": "Gerente de Capacitación y Desarrollo",
+      "level": "manager",
+      "department": "hr"
+    },
+    {
+      "code": "financial_analyst_title",
+      "en": "Financial Analyst",
+      "es": "Analista Financiero",
+      "level": "entry",
+      "department": "finance"
+    },
+    {
+      "code": "senior_financial_analyst",
+      "en": "Senior Financial Analyst",
+      "es": "Analista Financiero Senior",
+      "level": "senior",
+      "department": "finance"
+    },
+    {
+      "code": "accountant_title",
+      "en": "Accountant",
+      "es": "Contador",
+      "level": "mid",
+      "department": "finance"
+    },
+    {
+      "code": "senior_accountant",
+      "en": "Senior Accountant",
+      "es": "Contador Senior",
+      "level": "senior",
+      "department": "finance"
+    },
+    {
+      "code": "controller",
+      "en": "Controller",
+      "es": "Contralor",
+      "level": "director",
+      "department": "finance"
+    },
+    {
+      "code": "bookkeeper",
+      "en": "Bookkeeper",
+      "es": "Auxiliar Contable",
+      "level": "entry",
+      "department": "finance"
+    },
+    {
+      "code": "payroll_specialist",
+      "en": "Payroll Specialist",
+      "es": "Especialista en Nómina",
+      "level": "mid",
+      "department": "finance"
+    },
+    {
+      "code": "treasury_analyst",
+      "en": "Treasury Analyst",
+      "es": "Analista de Tesorería",
+      "level": "mid",
+      "department": "finance"
+    },
+    {
+      "code": "internal_auditor",
+      "en": "Internal Auditor",
+      "es": "Auditor Interno",
+      "level": "mid",
+      "department": "finance"
+    },
+    {
+      "code": "risk_analyst",
+      "en": "Risk Analyst",
+      "es": "Analista de Riesgos",
+      "level": "mid",
+      "department": "finance"
+    },
+    {
+      "code": "operations_manager_title",
+      "en": "Operations Manager",
+      "es": "Gerente de Operaciones",
+      "level": "manager",
+      "department": "operations"
+    },
+    {
+      "code": "operations_coordinator",
+      "en": "Operations Coordinator",
+      "es": "Coordinador de Operaciones",
+      "level": "entry",
+      "department": "operations"
+    },
+    {
+      "code": "logistics_coordinator_title",
+      "en": "Logistics Coordinator",
+      "es": "Coordinador de Logística",
+      "level": "entry",
+      "department": "operations"
+    },
+    {
+      "code": "supply_chain_manager_title",
+      "en": "Supply Chain Manager",
+      "es": "Gerente de Cadena de Suministro",
+      "level": "manager",
+      "department": "operations"
+    },
+    {
+      "code": "procurement_manager_title",
+      "en": "Procurement Manager",
+      "es": "Gerente de Compras",
+      "level": "manager",
+      "department": "operations"
+    },
+    {
+      "code": "warehouse_supervisor",
+      "en": "Warehouse Supervisor",
+      "es": "Supervisor de Almacén",
+      "level": "lead",
+      "department": "operations"
+    },
+    {
+      "code": "inventory_manager",
+      "en": "Inventory Manager",
+      "es": "Gerente de Inventario",
+      "level": "manager",
+      "department": "operations"
+    },
+    {
+      "code": "quality_assurance_manager",
+      "en": "Quality Assurance Manager",
+      "es": "Gerente de Aseguramiento de Calidad",
+      "level": "manager",
+      "department": "operations"
+    },
+    {
+      "code": "plant_manager",
+      "en": "Plant Manager",
+      "es": "Gerente de Planta",
+      "level": "director",
+      "department": "operations"
+    },
+    {
+      "code": "production_supervisor",
+      "en": "Production Supervisor",
+      "es": "Supervisor de Producción",
+      "level": "lead",
+      "department": "operations"
+    },
+    {
+      "code": "legal_counsel",
+      "en": "Legal Counsel",
+      "es": "Asesor Legal",
+      "level": "senior",
+      "department": "legal"
+    },
+    {
+      "code": "general_counsel",
+      "en": "General Counsel",
+      "es": "Consejero Jurídico General",
+      "level": "director",
+      "department": "legal"
+    },
+    {
+      "code": "paralegal_title",
+      "en": "Paralegal",
+      "es": "Asistente Legal",
+      "level": "mid",
+      "department": "legal"
+    },
+    {
+      "code": "compliance_officer",
+      "en": "Compliance Officer",
+      "es": "Oficial de Cumplimiento",
+      "level": "senior",
+      "department": "legal"
+    },
+    {
+      "code": "it_manager",
+      "en": "IT Manager",
+      "es": "Gerente de TI",
+      "level": "manager",
+      "department": "it"
+    },
+    {
+      "code": "it_support_specialist_title",
+      "en": "IT Support Specialist",
+      "es": "Especialista en Soporte TI",
+      "level": "mid",
+      "department": "it"
+    },
+    {
+      "code": "systems_administrator_title",
+      "en": "Systems Administrator",
+      "es": "Administrador de Sistemas",
+      "level": "mid",
+      "department": "it"
+    },
+    {
+      "code": "network_administrator",
+      "en": "Network Administrator",
+      "es": "Administrador de Redes",
+      "level": "mid",
+      "department": "it"
+    },
+    {
+      "code": "database_administrator_title",
+      "en": "Database Administrator",
+      "es": "Administrador de Bases de Datos",
+      "level": "mid",
+      "department": "it"
+    },
+    {
+      "code": "security_analyst",
+      "en": "Security Analyst",
+      "es": "Analista de Seguridad",
+      "level": "mid",
+      "department": "it"
+    },
+    {
+      "code": "help_desk_technician",
+      "en": "Help Desk Technician",
+      "es": "Técnico de Mesa de Ayuda",
+      "level": "entry",
+      "department": "it"
+    },
+    {
+      "code": "executive_assistant_title",
+      "en": "Executive Assistant",
+      "es": "Asistente Ejecutivo",
+      "level": "mid",
+      "department": "administration"
+    },
+    {
+      "code": "administrative_assistant_title",
+      "en": "Administrative Assistant",
+      "es": "Asistente Administrativo",
+      "level": "entry",
+      "department": "administration"
+    },
+    {
+      "code": "office_manager",
+      "en": "Office Manager",
+      "es": "Gerente de Oficina",
+      "level": "manager",
+      "department": "administration"
+    },
+    {
+      "code": "receptionist_title",
+      "en": "Receptionist",
+      "es": "Recepcionista",
+      "level": "entry",
+      "department": "administration"
+    },
+    {
+      "code": "consultant",
+      "en": "Consultant",
+      "es": "Consultor",
+      "level": "mid",
+      "department": "consulting"
+    },
+    {
+      "code": "senior_consultant",
+      "en": "Senior Consultant",
+      "es": "Consultor Senior",
+      "level": "senior",
+      "department": "consulting"
+    },
+    {
+      "code": "management_consultant_title",
+      "en": "Management Consultant",
+      "es": "Consultor de Gestión",
+      "level": "senior",
+      "department": "consulting"
+    },
+    {
+      "code": "freelancer",
+      "en": "Freelancer",
+      "es": "Trabajador Independiente",
+      "level": "mid",
+      "department": "general"
+    },
+    {
+      "code": "contractor",
+      "en": "Contractor",
+      "es": "Contratista",
+      "level": "mid",
+      "department": "general"
+    }
+  ]
+}

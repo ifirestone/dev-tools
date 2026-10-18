@@ -1,0 +1,15 @@
+meta {
+  name: 03 - Auth SignAppIn - missing header (400)
+  type: http
+  seq: 3
+}
+
+post {
+  url: {{baseUrl}}/BeyondTrust/api/public/v3/Auth/SignAppIn
+  body: none
+  auth: none
+}
+
+docs {
+  Sin header Authorization. Dispara 03-auth-signappin-400-missing-header.json -> 400 BadRequest.
+}

@@ -1,0 +1,19 @@
+meta {
+  name: 01 - Auth SignAppIn - success (200)
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{baseUrl}}/BeyondTrust/api/public/v3/Auth/SignAppIn
+  body: none
+  auth: none
+}
+
+headers {
+  Authorization: PS-Auth key={{validApiKey}};runas={{runAsUser}};
+}
+
+docs {
+  Dispara 01-auth-signappin-success.json -> 200 con UserId/SessionId.
+}

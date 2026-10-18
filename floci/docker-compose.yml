@@ -1,0 +1,76 @@
+services:
+  # Emulador de AWS (Floci) -> Puerto 4566
+  floci-aws:
+    image: floci/floci:latest
+    container_name: floci-aws
+    ports:
+      - "4566:4566"
+    environment:
+      - FLOCI_HOSTNAME=floci-aws
+      # floci-aws sabe crear su propio sidecar floci-ui bajo demanda (con
+      # docker.sock), pero solo lo dispara desde un botón en su primer
+      # arranque y "adopta" el que ya exista sin refrescar su config — poco
+      # confiable para levantar todo con `docker compose up`. Lo apagamos y
+      # declaramos floci-ui como servicio propio más abajo, así siempre
+      # arranca con la config correcta sin intervención manual.
+      - FLOCI_SERVICES_UI_ENABLED=false
+    volumes:
+      - floci_aws_data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock # solo necesario si usas Lambda/ECS locales (ya no gestiona floci-ui)
+
+  # Emulador de Azure (Floci-AZ) -> Puerto 4577
+  floci-azure:
+    image: floci/floci-az:latest
+    container_name: floci-azure
+    ports:
+      - "4577:4577"
+    environment:
+      - FLOCI_AZ_HOSTNAME=floci-azure
+    volumes:
+      - floci_azure_data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock # requerido para functions, postgres/mysql/mariadb, event hubs y service bus (ver banner de arranque)
+
+  # Emulador de GCP (Floci-GCP) -> Componentes en puerto 4588
+  floci-gcp:
+    image: floci/floci-gcp:latest
+    container_name: floci-gcp
+    ports:
+      - "4588:4588"
+    environment:
+      - FLOCI_GCP_HOSTNAME=floci-gcp
+      - FLOCI_GCP_BASE_URL=http://floci-gcp:4588
+      - FLOCI_GCP_STORAGE_MODE=hybrid
+      - FLOCI_GCP_STORAGE_PERSISTENT_PATH=/app/data
+    volumes:
+      - floci_gcp_data:/app/data
+      - /var/run/docker.sock:/var/run/docker.sock # requerido para cloudfunctions, cloudrun y gke
+
+  # Consola web unificada, atendiendo las 3 nubes.
+  floci-ui:
+    image: floci/floci-ui:latest
+    container_name: floci-ui
+    depends_on:
+      - floci-aws
+      - floci-gcp
+      - floci-azure
+    ports:
+      - "4500:4500"
+    environment:
+      - PORT=4500
+      - FLOCI_CLOUD=aws
+      - FLOCI_HOSTNAME=floci-aws
+      - FLOCI_ENDPOINT=http://floci-aws:4566
+      - AWS_ENDPOINT_URL=http://floci-aws:4566
+      - AWS_DEFAULT_REGION=us-east-1
+      - AWS_REGION=us-east-1
+      - AWS_ACCESS_KEY_ID=test
+      - AWS_SECRET_ACCESS_KEY=test
+      - AWS_SESSION_TOKEN=test
+      - FLOCI_GCP_ENDPOINT=http://floci-gcp:4588
+      - FLOCI_AZURE_ENDPOINT=http://floci-azure:4577
+    restart: unless-stopped
+
+volumes:
+  floci_aws_data:
+  floci_azure_data:
+  floci_gcp_data:

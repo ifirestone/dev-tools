@@ -1,0 +1,426 @@
+{
+  "info": {
+    "_postman_id": "2b5c9b43-f4a7-4936-b5fc-fe9f6857d365",
+    "name": "WireMock - BeyondTrust",
+    "description": "Requests de prueba para los 15 mocks en wiremock/mappings/password-safe/. Cada request está numerado y nombrado igual que el archivo de mapping que dispara, con el status HTTP esperado en la descripción.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "password-safe",
+      "item": [
+        {
+          "name": "01 - Auth SignAppIn - success (200)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "PS-Auth key={{validApiKey}};runas={{runAsUser}};"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/Auth/SignAppIn",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "Auth",
+                "SignAppIn"
+              ]
+            },
+            "description": "Dispara 01-auth-signappin-success.json -> 200 con UserId/SessionId."
+          },
+          "response": []
+        },
+        {
+          "name": "02 - Auth SignAppIn - invalid key (401)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "PS-Auth key={{invalidApiKey}};runas={{runAsUser}};"
+              }
+            ],
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/Auth/SignAppIn",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "Auth",
+                "SignAppIn"
+              ]
+            },
+            "description": "Dispara 02-auth-signappin-401-invalid-key.json -> 401 Unauthorized."
+          },
+          "response": []
+        },
+        {
+          "name": "03 - Auth SignAppIn - missing header (400)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/Auth/SignAppIn",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "Auth",
+                "SignAppIn"
+              ]
+            },
+            "description": "Sin header Authorization. Dispara 03-auth-signappin-400-missing-header.json -> 400 BadRequest."
+          },
+          "response": []
+        },
+        {
+          "name": "04 - Auth Signout - success (200)",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/Auth/Signout",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "Auth",
+                "Signout"
+              ]
+            },
+            "description": "Dispara 04-auth-signappout-success.json -> 200."
+          },
+          "response": []
+        },
+        {
+          "name": "05 - ManagedAccounts - no access (403)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/ManagedAccounts?systemName=SYS-NOACCESS",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "ManagedAccounts"
+              ],
+              "query": [
+                {
+                  "key": "systemName",
+                  "value": "SYS-NOACCESS"
+                }
+              ]
+            },
+            "description": "Dispara 05-managedaccounts-403-noaccess.json -> 403 Forbidden."
+          },
+          "response": []
+        },
+        {
+          "name": "06 - ManagedAccounts - not found (404)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/ManagedAccounts?accountName=NOTFOUND",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "ManagedAccounts"
+              ],
+              "query": [
+                {
+                  "key": "accountName",
+                  "value": "NOTFOUND"
+                }
+              ]
+            },
+            "description": "Dispara 06-managedaccounts-404-notfound.json -> 404 NotFound."
+          },
+          "response": []
+        },
+        {
+          "name": "07 - ManagedAccounts - success (200)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/ManagedAccounts",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "ManagedAccounts"
+              ]
+            },
+            "description": "Sin query params que matcheen 05/06. Dispara 07-managedaccounts-success.json -> 200 con el listado."
+          },
+          "response": []
+        },
+        {
+          "name": "08 - Requests POST - no access (403)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"SystemID\": 9999,\n  \"AccountID\": 1,\n  \"DurationMinutes\": 60,\n  \"Reason\": \"Test - sin acceso\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/Requests",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "Requests"
+              ]
+            },
+            "description": "SystemID 9999. Dispara 08-requests-post-403-noaccess.json -> 403 Forbidden."
+          },
+          "response": []
+        },
+        {
+          "name": "09 - Requests POST - invalid (400)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"SystemID\": 8888,\n  \"AccountID\": 1,\n  \"DurationMinutes\": 999999,\n  \"Reason\": \"Test - duracion invalida\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/Requests",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "Requests"
+              ]
+            },
+            "description": "SystemID 8888. Dispara 09-requests-post-400-invalid.json -> 400 BadRequest."
+          },
+          "response": []
+        },
+        {
+          "name": "10 - Requests POST - success (201)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"SystemID\": 12,\n  \"AccountID\": 4521,\n  \"DurationMinutes\": 60,\n  \"Reason\": \"Test - solicitud valida\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/Requests",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "Requests"
+              ]
+            },
+            "description": "SystemID distinto de 9999/8888. Dispara 10-requests-post-success.json -> 201 con el RequestID (123456)."
+          },
+          "response": []
+        },
+        {
+          "name": "11 - Requests Credentials - no access (403)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/Requests/999/Credentials",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "Requests",
+                "999",
+                "Credentials"
+              ]
+            },
+            "description": "RequestID 999. Dispara 11-requests-credentials-403.json -> 403 Forbidden."
+          },
+          "response": []
+        },
+        {
+          "name": "12 - Requests Credentials - not found (404)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/Requests/888/Credentials",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "Requests",
+                "888",
+                "Credentials"
+              ]
+            },
+            "description": "RequestID 888. Dispara 12-requests-credentials-404.json -> 404 NotFound."
+          },
+          "response": []
+        },
+        {
+          "name": "13 - Requests Credentials - success (200)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/Requests/123456/Credentials",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "Requests",
+                "123456",
+                "Credentials"
+              ]
+            },
+            "description": "Cualquier RequestID numérico distinto de 999/888. Dispara 13-requests-credentials-success.json -> 200 con la contraseña mock."
+          },
+          "response": []
+        },
+        {
+          "name": "14 - Requests Checkin - not found (404)",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/Requests/777/Checkin",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "Requests",
+                "777",
+                "Checkin"
+              ]
+            },
+            "description": "RequestID 777. Dispara 14-requests-checkin-404.json -> 404 NotFound."
+          },
+          "response": []
+        },
+        {
+          "name": "15 - Requests Checkin - success (204)",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/BeyondTrust/api/public/v3/Requests/123456/Checkin",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "BeyondTrust",
+                "api",
+                "public",
+                "v3",
+                "Requests",
+                "123456",
+                "Checkin"
+              ]
+            },
+            "description": "Cualquier RequestID numérico distinto de 777. Dispara 15-requests-checkin-success.json -> 204 sin body."
+          },
+          "response": []
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080"
+    },
+    {
+      "key": "validApiKey",
+      "value": "VALID-API-KEY"
+    },
+    {
+      "key": "invalidApiKey",
+      "value": "INVALID-KEY"
+    },
+    {
+      "key": "runAsUser",
+      "value": "svc_integration"
+    }
+  ]
+}

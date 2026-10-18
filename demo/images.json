@@ -1,0 +1,170 @@
+{
+  "data": {
+    "base_url": "https://placehold.co",
+    "syntax": "{base_url}/{width}x{height}/{bg_color}/{text_color}.{format}?text={custom_text}&font={font_name}",
+    "horizontal": [
+      {
+        "name": "HD (16:9)",
+        "width": 1280,
+        "height": 720,
+        "bg_color": "1e293b",
+        "text_color": "ffffff",
+        "format": "png",
+        "text": "HD 1280x720",
+        "url": "https://placehold.co/1280x720/1e293b/ffffff.png?text=HD+1280x720"
+      },
+      {
+        "name": "Full HD (16:9)",
+        "width": 1920,
+        "height": 1080,
+        "bg_color": "0f172a",
+        "text_color": "ffffff",
+        "format": "png",
+        "text": "Full HD",
+        "url": "https://placehold.co/1920x1080/0f172a/ffffff.png?text=Full+HD"
+      },
+      {
+        "name": "Banner web estándar",
+        "width": 1200,
+        "height": 630,
+        "bg_color": "334155",
+        "text_color": "e2e8f0",
+        "format": "png",
+        "text": "Banner 1200x630",
+        "url": "https://placehold.co/1200x630/334155/e2e8f0.png?text=Banner"
+      },
+      {
+        "name": "Facebook/LinkedIn share",
+        "width": 1200,
+        "height": 628,
+        "bg_color": "1877f2",
+        "text_color": "ffffff",
+        "format": "png",
+        "text": "Social Share",
+        "url": "https://placehold.co/1200x628/1877f2/ffffff.png?text=Social+Share"
+      },
+      {
+        "name": "Twitter/X post",
+        "width": 1024,
+        "height": 512,
+        "bg_color": "000000",
+        "text_color": "ffffff",
+        "format": "png",
+        "text": "X Post",
+        "url": "https://placehold.co/1024x512/000000/ffffff.png?text=X+Post"
+      },
+      {
+        "name": "YouTube thumbnail",
+        "width": 1280,
+        "height": 720,
+        "bg_color": "ff0000",
+        "text_color": "ffffff",
+        "format": "png",
+        "text": "YT Thumbnail",
+        "url": "https://placehold.co/1280x720/ff0000/ffffff.png?text=YT+Thumbnail"
+      },
+      {
+        "name": "Hero image web",
+        "width": 1600,
+        "height": 900,
+        "bg_color": "475569",
+        "text_color": "f8fafc",
+        "format": "webp",
+        "text": "Hero Image",
+        "url": "https://placehold.co/1600x900/475569/f8fafc.webp?text=Hero+Image"
+      },
+      {
+        "name": "Card horizontal",
+        "width": 600,
+        "height": 400,
+        "bg_color": "cbd5e1",
+        "text_color": "1e293b",
+        "format": "png",
+        "text": "600x400",
+        "url": "https://placehold.co/600x400/cbd5e1/1e293b.png?text=600x400"
+      },
+      {
+        "name": "Miniatura horizontal",
+        "width": 400,
+        "height": 225,
+        "bg_color": "94a3b8",
+        "text_color": "0f172a",
+        "format": "png",
+        "text": "Thumb",
+        "url": "https://placehold.co/400x225/94a3b8/0f172a.png?text=Thumb"
+      }
+    ],
+    "square": [
+      {
+        "name": "Ícono grande",
+        "width": 512,
+        "height": 512,
+        "bg_color": "6366f1",
+        "text_color": "ffffff",
+        "format": "png",
+        "text": "512x512",
+        "url": "https://placehold.co/512x512/6366f1/ffffff.png?text=512x512"
+      },
+      {
+        "name": "Avatar/perfil",
+        "width": 256,
+        "height": 256,
+        "bg_color": "8b5cf6",
+        "text_color": "ffffff",
+        "format": "png",
+        "text": "Avatar",
+        "url": "https://placehold.co/256x256/8b5cf6/ffffff.png?text=Avatar"
+      },
+      {
+        "name": "Instagram post",
+        "width": 1080,
+        "height": 1080,
+        "bg_color": "e1306c",
+        "text_color": "ffffff",
+        "format": "png",
+        "text": "IG Post",
+        "url": "https://placehold.co/1080x1080/e1306c/ffffff.png?text=IG+Post"
+      },
+      {
+        "name": "Thumbnail estándar",
+        "width": 150,
+        "height": 150,
+        "bg_color": "d1d5db",
+        "text_color": "111827",
+        "format": "png",
+        "text": "150x150",
+        "url": "https://placehold.co/150x150/d1d5db/111827.png?text=150x150"
+      },
+      {
+        "name": "Miniatura pequeña",
+        "width": 100,
+        "height": 100,
+        "bg_color": "9ca3af",
+        "text_color": "111827",
+        "format": "png",
+        "text": "100",
+        "url": "https://placehold.co/100x100/9ca3af/111827.png?text=100"
+      },
+      {
+        "name": "Logo cuadrado",
+        "width": 200,
+        "height": 200,
+        "bg_color": "0ea5e9",
+        "text_color": "ffffff",
+        "format": "svg",
+        "text": "Logo",
+        "url": "https://placehold.co/200x200/0ea5e9/ffffff.svg?text=Logo"
+      },
+      {
+        "name": "Card cuadrado",
+        "width": 400,
+        "height": 400,
+        "bg_color": "f1f5f9",
+        "text_color": "334155",
+        "format": "png",
+        "text": "400x400",
+        "url": "https://placehold.co/400x400/f1f5f9/334155.png?text=400x400"
+      }
+    ]
+  }
+}
