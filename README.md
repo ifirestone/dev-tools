@@ -5,8 +5,9 @@ Caja de herramientas para desarrolladores. Reúne en un solo repositorio todo lo
 - **Bases de datos y almacenamiento** locales (PostgreSQL, MySQL, Oracle, SQL Server, MongoDB, Redis y MinIO) con Docker Compose.
 - **Emuladores de AWS, Azure y GCP** con una consola web unificada.
 - **Servidor de mocks** (WireMock) con un ejemplo completo de una API de gestión de contraseñas.
-- **Skills de IA** para analizar logs por tecnología.
 - **Datos de ejemplo** en JSON para seeds, mocks y pruebas.
+
+Las skills de IA para analizar logs viven ahora en su propio repositorio: [ifirestone/ia-tools](https://github.com/ifirestone/ia-tools).
 
 Cada carpeta es independiente: usa solo la que necesites.
 
@@ -19,7 +20,6 @@ Cada carpeta es independiente: usa solo la que necesites.
 | [`dev-infra/`](dev-infra/) | Stack local con Docker Compose: MinIO, PostgreSQL, MySQL, Redis, Oracle, MongoDB y SQL Server, con un usuario de desarrollo creado en cada servicio. | [dev-infra/README.md](dev-infra/README.md) |
 | [`floci/`](floci/)         | Emuladores locales de AWS, Azure y GCP con una consola web unificada, usando las imágenes del proyecto de código abierto [Floci](https://floci.io).  | [floci/README.md](floci/README.md)         |
 | [`wiremock/`](wiremock/)   | Servidor de mocks [WireMock](https://wiremock.org/) con GUI, stubs de ejemplo (API de BeyondTrust Password Safe) y colecciones de Postman y Bruno.   | [wiremock/README.md](wiremock/README.md)   |
-| [`ia-tools/`](ia-tools/)   | Skills de IA para diagnosticar logs de Kafka, Kubernetes, Spring Boot, .NET, bases de datos y más.                                                   | [ia-tools/README.md](ia-tools/README.md)   |
 | [`demo/`](demo/)           | Catálogos JSON bilingües (países, bancos, profesiones…) para seeds, mocks y pruebas.                                                                 | [demo/README.md](demo/README.md)           |
 
 ```text
@@ -27,7 +27,6 @@ dev-tools/
 ├── dev-infra/    # Bases de datos y almacenamiento local (Docker Compose)
 ├── floci/        # Emuladores de nube AWS / Azure / GCP (Docker Compose)
 ├── wiremock/     # Mock server + colecciones Postman y Bruno
-├── ia-tools/     # Skills de análisis de logs
 ├── demo/         # Datos de ejemplo en JSON
 ├── LICENSE
 └── SECURITY.md   # Política de seguridad

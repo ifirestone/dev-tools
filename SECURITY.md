@@ -2,7 +2,7 @@
 
 ## Alcance
 
-`dev-tools` es una colección de herramientas **para desarrollo local**: configuraciones de Docker Compose, mocks, datos de ejemplo y skills de IA. No es un producto para producción ni se despliega como servicio.
+`dev-tools` es una colección de herramientas **para desarrollo local**: configuraciones de Docker Compose, mocks y datos de ejemplo. No es un producto para producción ni se despliega como servicio.
 
 Por eso, lo siguiente **no se considera una vulnerabilidad**:
 
@@ -19,7 +19,6 @@ Por favor avisa si encuentras, por ejemplo:
 
 - **Credenciales, tokens, claves o datos personales reales** en el repositorio o en su historial.
 - Un script o configuración que pueda **exponer servicios a la red** de forma no documentada, ejecutar código inesperado o dañar datos fuera de los volúmenes del propio stack.
-- Una instrucción en un skill de `ia-tools/` que pueda inducir a un asistente a filtrar datos sensibles o a ejecutar acciones no deseadas.
 - Dependencias o imágenes referenciadas que hayan sido comprometidas.
 
 ## Cómo reportar
