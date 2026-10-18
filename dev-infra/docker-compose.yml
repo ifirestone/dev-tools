@@ -138,7 +138,7 @@ services:
   # MSSQL (Relational Database)
   mssql:
     image: mcr.microsoft.com/azure-sql-edge:latest # ARM
-    # image: mcr.microsoft.com/mssql/server:2022-latest # x86_64
+    # image: mcr.microsoft.com/mssql/server:2025-latest # x86_64
     container_name: mssql
     restart: unless-stopped
     environment:
@@ -162,7 +162,7 @@ services:
 
   # MSSQL INIT (Initialization Scripts for MSSQL)
   mssql-init:
-    image: mcr.microsoft.com/mssql/server:2022-latest # x86_64 (used only as sqlcmd client)
+    image: mcr.microsoft.com/mssql/server:2025-latest # x86_64 (used only as sqlcmd client)
     container_name: mssql_init
     depends_on:
       mssql:
