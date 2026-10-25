@@ -1,7 +1,7 @@
 services:
   # MINIO (Object Storage)
   minio:
-    image: madlabcg/minio:madlab-2026.09
+    image: madlabcg/minio:madlab-2026.10
     container_name: minio
     restart: unless-stopped
     command: ["server", "/data", "--console-address=:9001"]
@@ -19,7 +19,7 @@ services:
   # MINIO SETUP (Developer Bucket)
   minio-setup:
     # La misma imagen trae mc y bash (la minio-client de Chainguard no trae shell).
-    image: madlabcg/minio:madlab-2026.09
+    image: madlabcg/minio:madlab-2026.10
     container_name: minio-setup
     depends_on:
       - minio
